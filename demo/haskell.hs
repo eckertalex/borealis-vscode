@@ -12,6 +12,7 @@ instance Semigroup Control where
   m@(Master _) <> Node = m
   (Master m0) <> (Master m1) = Master (m0 <> m1)
 
+-- hello
 instance Monoid Control where
   mempty = Node
   mappend a b = a <> b

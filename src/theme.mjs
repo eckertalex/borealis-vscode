@@ -2,97 +2,97 @@ export default colors => ({
   name: "Borealis",
   type: "dark",
   colors: {
-    "focusBorder": colors.dim2,
-    "foreground": colors.pure2,
-    "widget.shadow": colors.background1,
-    "selection.background": colors.background4,
-    "descriptionForeground": colors.dim3,
-    "errorForeground": colors.base1,
-    "textBlockQuote.background": colors.background4,
-    "textBlockQuote.border": colors.background4,
-    "textCodeBlock.background": colors.background4,
-    "textLink.activeForeground": colors.pure2,
-    "textLink.foreground": colors.base2,
-    "textPreformat.foreground": colors.pure2,
-    "textSeparator.foreground": colors.dim2,
-    "button.background": colors.background4,
-    "button.foreground": colors.dim3,
-    "button.hoverBackground": colors.background3,
-    "dropdown.background": colors.background3,
-    "dropdown.listBackground": colors.background4,
-    "dropdown.border": colors.background3,
-    "dropdown.foreground": colors.dim3,
-    "input.background": colors.background4,
-    "input.border": colors.background4,
-    "input.foreground": colors.pure2,
-    "input.placeholderForeground": colors.dim1,
-    "inputOption.activeBorder": colors.dim1,
-    "inputValidation.errorBackground": colors.background4,
-    "inputValidation.errorBorder": colors.base1,
-    "inputValidation.infoBackground": colors.background4,
-    "inputValidation.infoBorder": colors.accent1,
-    "inputValidation.warningBackground": colors.background4,
-    "inputValidation.warningBorder": colors.accent2,
-    "scrollbar.shadow": colors.background3,
+    "focusBorder": colors.teal,
+    "foreground": colors.gallery,
+    "widget.shadow": colors.swamp,
+    "selection.background": colors.sherpaBlue,
+    "descriptionForeground": colors.opal,
+    "errorForeground": colors.aqua,
+    "textBlockQuote.background": colors.sherpaBlue,
+    "textBlockQuote.border": colors.sherpaBlue,
+    "textCodeBlock.background": colors.sherpaBlue,
+    "textLink.activeForeground": colors.gallery,
+    "textLink.foreground": colors.candlelight,
+    "textPreformat.foreground": colors.gallery,
+    "textSeparator.foreground": colors.teal,
+    "button.background": colors.sherpaBlue,
+    "button.foreground": colors.opal,
+    "button.hoverBackground": colors.deepTeal,
+    "dropdown.background": colors.deepTeal,
+    "dropdown.listBackground": colors.sherpaBlue,
+    "dropdown.border": colors.deepTeal,
+    "dropdown.foreground": colors.opal,
+    "input.background": colors.sherpaBlue,
+    "input.border": colors.sherpaBlue,
+    "input.foreground": colors.gallery,
+    "input.placeholderForeground": colors.mystic,
+    "inputOption.activeBorder": colors.mystic,
+    "inputValidation.errorBackground": colors.sherpaBlue,
+    "inputValidation.errorBorder": colors.aqua,
+    "inputValidation.infoBackground": colors.sherpaBlue,
+    "inputValidation.infoBorder": colors.lightingYellow,
+    "inputValidation.warningBackground": colors.sherpaBlue,
+    "inputValidation.warningBorder": colors.malachite,
+    "scrollbar.shadow": colors.deepTeal,
     "scrollbarSlider.activeBackground": colors.translucent9,
     "scrollbarSlider.background": colors.translucent9,
     "scrollbarSlider.hoverBackground": colors.translucent9,
-    "badge.foreground": colors.background3,
-    "badge.background": colors.base2,
-    "progressBar.background": colors.background4,
-    "list.activeSelectionBackground": colors.background3,
-    "list.activeSelectionForeground": colors.base2,
-    "list.errorForeground": colors.base1,
-    "list.warningForeground": colors.accent2,
+    "badge.foreground": colors.deepTeal,
+    "badge.background": colors.candlelight,
+    "progressBar.background": colors.sherpaBlue,
+    "list.activeSelectionBackground": colors.deepTeal,
+    "list.activeSelectionForeground": colors.candlelight,
+    "list.errorForeground": colors.aqua,
+    "list.warningForeground": colors.malachite,
     "list.dropBackground": colors.translucent,
-    "list.focusBackground": colors.background3,
-    "list.focusForeground": colors.pure2,
-    "list.highlightForeground": colors.pure2,
-    "list.hoverBackground": colors.background2,
-    "list.hoverForeground": colors.pure2,
-    "list.inactiveSelectionBackground": colors.background3,
-    "list.inactiveSelectionForeground": colors.base2,
-    "list.inactiveFocusBackground": colors.background3,
-    "list.invalidItemForeground": colors.base1,
-    "activityBar.background": colors.background1,
+    "list.focusBackground": colors.deepTeal,
+    "list.focusForeground": colors.gallery,
+    "list.highlightForeground": colors.gallery,
+    "list.hoverBackground": colors.darkDeepTeal,
+    "list.hoverForeground": colors.gallery,
+    "list.inactiveSelectionBackground": colors.deepTeal,
+    "list.inactiveSelectionForeground": colors.candlelight,
+    "list.inactiveFocusBackground": colors.deepTeal,
+    "list.invalidItemForeground": colors.aqua,
+    "activityBar.background": colors.swamp,
     "activityBar.dropBackground": colors.translucent,
-    "activityBar.foreground": colors.dim3,
-    "activityBar.border": colors.background1,
-    "activityBarBadge.background": colors.base2,
-    "activityBarBadge.foreground": colors.background3,
-    "sideBar.background": colors.background2,
-    "sideBar.foreground": colors.dim3,
-    "sideBar.border": colors.background1,
+    "activityBar.foreground": colors.opal,
+    "activityBar.border": colors.swamp,
+    "activityBarBadge.background": colors.candlelight,
+    "activityBarBadge.foreground": colors.deepTeal,
+    "sideBar.background": colors.darkDeepTeal,
+    "sideBar.foreground": colors.opal,
+    "sideBar.border": colors.swamp,
     "sideBar.dropBackground": colors.translucent,
-    "sideBarTitle.foreground": colors.dim1,
-    "sideBarSectionHeader.background": colors.background2,
-    "sideBarSectionHeader.foreground": colors.dim2,
-    "editorGroup.background": colors.background1,
-    "editorGroup.border": colors.background2,
+    "sideBarTitle.foreground": colors.mystic,
+    "sideBarSectionHeader.background": colors.darkDeepTeal,
+    "sideBarSectionHeader.foreground": colors.teal,
+    "editorGroup.background": colors.swamp,
+    "editorGroup.border": colors.darkDeepTeal,
     "editorGroup.dropBackground": colors.translucent,
-    "editorGroupHeader.noTabsBackground": colors.background3,
-    "editorGroupHeader.tabsBackground": colors.background3,
-    "editorGroupHeader.tabsBorder": colors.background3,
-    "tab.activeBackground": colors.background3,
-    "tab.activeForeground": colors.base2,
-    "tab.border": colors.background3,
-    "tab.activeBorder": colors.base2,
-    "tab.unfocusedActiveBorder": colors.dim3,
-    "tab.inactiveBackground": colors.background3,
-    "tab.inactiveForeground": colors.dim3,
-    "tab.unfocusedActiveForeground": colors.dim4,
-    "tab.unfocusedInactiveForeground": colors.dim3,
-    "tab.hoverBackground": colors.background3,
-    "tab.unfocusedHoverBackground": colors.background3,
-    "tab.hoverBorder": colors.dim1,
-    "tab.unfocusedHoverBorder": colors.background3,
-    "editor.background": colors.background3,
-    "editor.foreground": colors.pure2,
-    "editorLineNumber.foreground": colors.dim1,
-    "editorLineNumber.activeForeground": colors.dim4,
+    "editorGroupHeader.noTabsBackground": colors.deepTeal,
+    "editorGroupHeader.tabsBackground": colors.deepTeal,
+    "editorGroupHeader.tabsBorder": colors.deepTeal,
+    "tab.activeBackground": colors.deepTeal,
+    "tab.activeForeground": colors.candlelight,
+    "tab.border": colors.deepTeal,
+    "tab.activeBorder": colors.candlelight,
+    "tab.unfocusedActiveBorder": colors.opal,
+    "tab.inactiveBackground": colors.deepTeal,
+    "tab.inactiveForeground": colors.opal,
+    "tab.unfocusedActiveForeground": colors.sweetPink,
+    "tab.unfocusedInactiveForeground": colors.opal,
+    "tab.hoverBackground": colors.deepTeal,
+    "tab.unfocusedHoverBackground": colors.deepTeal,
+    "tab.hoverBorder": colors.mystic,
+    "tab.unfocusedHoverBorder": colors.deepTeal,
+    "editor.background": colors.deepTeal,
+    "editor.foreground": colors.gallery,
+    "editorLineNumber.foreground": colors.mystic,
+    "editorLineNumber.activeForeground": colors.sweetPink,
     "editorCursor.background": colors.translucent8,
-    "editorCursor.foreground": colors.pure2,
-    "editor.selectionBackground": colors.background4,
+    "editorCursor.foreground": colors.gallery,
+    "editor.selectionBackground": colors.sherpaBlue,
     "editor.inactiveSelectionBackground": colors.translucent3,
     "editor.selectionHighlightBackground": colors.translucent2,
     "editor.selectionHighlightBorder": colors.translucent8,
@@ -101,7 +101,7 @@ export default colors => ({
     "editor.wordHighlightStrongBackground": colors.translucent2,
     "editor.wordHighlightStrongBorder": colors.translucent8,
     "editor.findMatchBackground": colors.translucent2,
-    "editor.findMatchBorder": colors.base2,
+    "editor.findMatchBorder": colors.candlelight,
     "editor.findMatchHighlightBackground": colors.translucent2,
     "editor.findMatchHighlightBorder": colors.translucent8,
     "editor.findRangeHighlightBackground": colors.translucent3,
@@ -109,1062 +109,739 @@ export default colors => ({
     "editor.hoverHighlightBackground": colors.translucent3,
     "editor.lineHighlightBackground": colors.translucent3,
     "editor.lineHighlightBorder": colors.translucent8,
-    "editorLink.activeForeground": colors.accent1,
-    "editor.rangeHighlightBackground": colors.background4,
-    "editor.rangeHighlightBorder": colors.background4,
-    "editorWhitespace.foreground": colors.dim1,
-    "editorIndentGuide.background": colors.background4,
-    "editorRuler.foreground": colors.dim1,
-    "editorCodeLens.foreground": colors.dim2,
-    "editorBracketMatch.background": colors.background3,
-    "editorBracketMatch.border": colors.dim2,
-    "editorError.foreground": colors.base1,
+    "editorLink.activeForeground": colors.lightingYellow,
+    "editor.rangeHighlightBackground": colors.sherpaBlue,
+    "editor.rangeHighlightBorder": colors.sherpaBlue,
+    "editorWhitespace.foreground": colors.mystic,
+    "editorIndentGuide.background": colors.sherpaBlue,
+    "editorRuler.foreground": colors.mystic,
+    "editorCodeLens.foreground": colors.teal,
+    "editorBracketMatch.background": colors.deepTeal,
+    "editorBracketMatch.border": colors.teal,
+    "editorError.foreground": colors.aqua,
     "editorError.border": colors.translucent8,
-    "editorWarning.foreground": colors.accent2,
+    "editorWarning.foreground": colors.malachite,
     "editorWarning.border": colors.translucent8,
-    "editorInfo.foreground": colors.accent1,
-    "editorInfo.border": colors.background3,
-    "editorHint.foreground": colors.const,
-    "editorHint.border": colors.background3,
-    "editorGutter.background": colors.background3,
-    "editorGutter.modifiedBackground": colors.accent2,
-    "editorGutter.addedBackground": colors.call,
-    "editorGutter.deletedBackground": colors.base1,
+    "editorInfo.foreground": colors.lightingYellow,
+    "editorInfo.border": colors.deepTeal,
+    "editorHint.foreground": colors.lavenderRose,
+    "editorHint.border": colors.deepTeal,
+    "editorGutter.background": colors.deepTeal,
+    "editorGutter.modifiedBackground": colors.malachite,
+    "editorGutter.addedBackground": colors.perfume,
+    "editorGutter.deletedBackground": colors.aqua,
     "diffEditor.insertedTextBackground": colors.translucent4,
     "diffEditor.insertedTextBorder": colors.translucent8,
     "diffEditor.removedTextBackground": colors.translucent6,
     "diffEditor.removedTextBorder": colors.translucent8,
-    "editorWidget.background": colors.background4,
-    "editorWidget.border": colors.background4,
-    "editorSuggestWidget.background": colors.background4,
-    "editorSuggestWidget.border": colors.background4,
-    "editorSuggestWidget.foreground": colors.dim4,
-    "editorSuggestWidget.highlightForeground": colors.pure2,
-    "editorSuggestWidget.selectedBackground": colors.dim2,
-    "editorHoverWidget.background": colors.background4,
-    "editorHoverWidget.border": colors.background3,
-    "debugExceptionWidget.background": colors.background4,
-    "debugExceptionWidget.border": colors.background3,
-    "editorMarkerNavigation.background": colors.background4,
-    "editorMarkerNavigationError.background": colors.base1,
-    "editorMarkerNavigationWarning.background": colors.accent2,
-    "editorMarkerNavigationInfo.background": colors.accent1,
-    "peekView.border": colors.background3,
-    "peekViewEditor.background": colors.background4,
-    "peekViewEditorGutter.background": colors.background4,
-    "peekViewEditor.matchHighlightBackground": colors.dim1,
-    "peekViewResult.background": colors.background4,
-    "peekViewResult.fileForeground": colors.dim3,
-    "peekViewResult.lineForeground": colors.dim3,
-    "peekViewResult.matchHighlightBackground": colors.dim1,
-    "peekViewResult.selectionBackground": colors.background4,
-    "peekViewResult.selectionForeground": colors.pure2,
-    "peekViewTitle.background": colors.background4,
-    "peekViewTitleDescription.foreground": colors.dim3,
-    "peekViewTitleLabel.foreground": colors.pure2,
+    "editorWidget.background": colors.sherpaBlue,
+    "editorWidget.border": colors.sherpaBlue,
+    "editorSuggestWidget.background": colors.sherpaBlue,
+    "editorSuggestWidget.border": colors.sherpaBlue,
+    "editorSuggestWidget.foreground": colors.sweetPink,
+    "editorSuggestWidget.highlightForeground": colors.gallery,
+    "editorSuggestWidget.selectedBackground": colors.teal,
+    "editorHoverWidget.background": colors.sherpaBlue,
+    "editorHoverWidget.border": colors.deepTeal,
+    "debugExceptionWidget.background": colors.sherpaBlue,
+    "debugExceptionWidget.border": colors.deepTeal,
+    "editorMarkerNavigation.background": colors.sherpaBlue,
+    "editorMarkerNavigationError.background": colors.aqua,
+    "editorMarkerNavigationWarning.background": colors.malachite,
+    "editorMarkerNavigationInfo.background": colors.lightingYellow,
+    "peekView.border": colors.deepTeal,
+    "peekViewEditor.background": colors.sherpaBlue,
+    "peekViewEditorGutter.background": colors.sherpaBlue,
+    "peekViewEditor.matchHighlightBackground": colors.mystic,
+    "peekViewResult.background": colors.sherpaBlue,
+    "peekViewResult.fileForeground": colors.opal,
+    "peekViewResult.lineForeground": colors.opal,
+    "peekViewResult.matchHighlightBackground": colors.mystic,
+    "peekViewResult.selectionBackground": colors.sherpaBlue,
+    "peekViewResult.selectionForeground": colors.gallery,
+    "peekViewTitle.background": colors.sherpaBlue,
+    "peekViewTitleDescription.foreground": colors.opal,
+    "peekViewTitleLabel.foreground": colors.gallery,
     "merge.currentHeaderBackground": colors.translucent7,
     "merge.currentContentBackground": colors.translucent6,
     "merge.incomingHeaderBackground": colors.translucent5,
     "merge.incomingContentBackground": colors.translucent4,
-    "merge.border": colors.background3,
+    "merge.border": colors.deepTeal,
     "merge.commonHeaderBackground": colors.translucent2,
     "merge.commonContentBackground": colors.translucent3,
-    "editorOverviewRuler.border": colors.background3,
-    "editorOverviewRuler.currentContentForeground": colors.background4,
-    "editorOverviewRuler.incomingContentForeground": colors.background4,
+    "editorOverviewRuler.border": colors.deepTeal,
+    "editorOverviewRuler.currentContentForeground": colors.sherpaBlue,
+    "editorOverviewRuler.incomingContentForeground": colors.sherpaBlue,
     "editorOverviewRuler.findMatchForeground": colors.translucent2,
     "editorOverviewRuler.rangeHighlightForeground": colors.translucent2,
     "editorOverviewRuler.selectionHighlightForeground": colors.translucent2,
     "editorOverviewRuler.wordHighlightForeground": colors.translucent2,
     "editorOverviewRuler.wordHighlightStrongForeground": colors.translucent2,
-    "editorOverviewRuler.modifiedForeground": colors.accent2,
-    "editorOverviewRuler.addedForeground": colors.call,
-    "editorOverviewRuler.deletedForeground": colors.base1,
-    "editorOverviewRuler.errorForeground": colors.base1,
-    "editorOverviewRuler.warningForeground": colors.accent2,
-    "editorOverviewRuler.infoForeground": colors.accent1,
-    "panel.background": colors.background4,
-    "panel.border": colors.background3,
+    "editorOverviewRuler.modifiedForeground": colors.malachite,
+    "editorOverviewRuler.addedForeground": colors.perfume,
+    "editorOverviewRuler.deletedForeground": colors.aqua,
+    "editorOverviewRuler.errorForeground": colors.aqua,
+    "editorOverviewRuler.warningForeground": colors.malachite,
+    "editorOverviewRuler.infoForeground": colors.lightingYellow,
+    "panel.background": colors.darkDeepTeal,
+    "panel.border": colors.candlelight,
     "panel.dropBackground": colors.translucent,
-    "panelTitle.activeBorder": colors.base2,
-    "panelTitle.activeForeground": colors.base2,
-    "panelTitle.inactiveForeground": colors.dim3,
-    "statusBar.background": colors.background2,
-    "statusBar.foreground": colors.dim2,
-    "statusBar.border": colors.background1,
-    "statusBar.debuggingBackground": colors.dim2,
-    "statusBar.debuggingForeground": colors.pure2,
-    "statusBar.debuggingBorder": colors.background2,
-    "statusBar.noFolderBackground": colors.background2,
-    "statusBar.noFolderForeground": colors.dim2,
-    "statusBar.noFolderBorder": colors.background1,
-    "statusBarItem.activeBackground": colors.background3,
-    "statusBarItem.hoverBackground": colors.background3,
-    "statusBarItem.prominentBackground": colors.background4,
-    "statusBarItem.prominentHoverBackground": colors.background4,
-    "titleBar.activeBackground": colors.background2,
-    "titleBar.activeForeground": colors.dim3,
-    "titleBar.inactiveBackground": colors.background2,
-    "titleBar.inactiveForeground": colors.dim1,
-    "titleBar.border": colors.background1,
-    "notificationCenter.border": colors.background4,
-    "notificationCenterHeader.foreground": colors.dim3,
-    "notificationCenterHeader.background": colors.background4,
-    "notificationToast.border": colors.background4,
-    "notifications.foreground": colors.dim4,
-    "notifications.background": colors.background4,
-    "notifications.border": colors.background4,
-    "notificationLink.foreground": colors.base2,
-    "extensionButton.prominentForeground": colors.pure2,
-    "extensionButton.prominentBackground": colors.background4,
-    "extensionButton.prominentHoverBackground": colors.dim1,
-    "pickerGroup.border": colors.background3,
-    "pickerGroup.foreground": colors.dim1,
-    "terminal.background": colors.background4,
-    "terminal.foreground": colors.pure2,
-    "terminal.ansiBlack": colors.background4,
-    "terminal.ansiBlue": colors.accent2,
-    "terminal.ansiBrightBlack": colors.dim2,
-    "terminal.ansiBrightBlue": colors.accent2,
-    "terminal.ansiBrightCyan": colors.accent1,
-    "terminal.ansiBrightGreen": colors.call,
-    "terminal.ansiBrightMagenta": colors.const,
-    "terminal.ansiBrightRed": colors.base1,
-    "terminal.ansiBrightWhite": colors.pure2,
-    "terminal.ansiBrightYellow": colors.base2,
-    "terminal.ansiCyan": colors.accent1,
-    "terminal.ansiGreen": colors.call,
-    "terminal.ansiMagenta": colors.const,
-    "terminal.ansiRed": colors.base1,
-    "terminal.ansiWhite": colors.pure2,
-    "terminal.ansiYellow": colors.base2,
+    "panelTitle.activeBorder": colors.candlelight,
+    "panelTitle.activeForeground": colors.candlelight,
+    "panelTitle.inactiveForeground": colors.opal,
+    "statusBar.background": colors.darkDeepTeal,
+    "statusBar.foreground": colors.teal,
+    "statusBar.border": colors.swamp,
+    "statusBar.debuggingBackground": colors.teal,
+    "statusBar.debuggingForeground": colors.gallery,
+    "statusBar.debuggingBorder": colors.darkDeepTeal,
+    "statusBar.noFolderBackground": colors.darkDeepTeal,
+    "statusBar.noFolderForeground": colors.teal,
+    "statusBar.noFolderBorder": colors.swamp,
+    "statusBarItem.activeBackground": colors.deepTeal,
+    "statusBarItem.hoverBackground": colors.deepTeal,
+    "statusBarItem.prominentBackground": colors.sherpaBlue,
+    "statusBarItem.prominentHoverBackground": colors.sherpaBlue,
+    "titleBar.activeBackground": colors.darkDeepTeal,
+    "titleBar.activeForeground": colors.opal,
+    "titleBar.inactiveBackground": colors.darkDeepTeal,
+    "titleBar.inactiveForeground": colors.mystic,
+    "titleBar.border": colors.swamp,
+    "notificationCenter.border": colors.sherpaBlue,
+    "notificationCenterHeader.foreground": colors.opal,
+    "notificationCenterHeader.background": colors.sherpaBlue,
+    "notificationToast.border": colors.sherpaBlue,
+    "notifications.foreground": colors.sweetPink,
+    "notifications.background": colors.sherpaBlue,
+    "notifications.border": colors.sherpaBlue,
+    "notificationLink.foreground": colors.candlelight,
+    "extensionButton.prominentForeground": colors.gallery,
+    "extensionButton.prominentBackground": colors.sherpaBlue,
+    "extensionButton.prominentHoverBackground": colors.mystic,
+    "pickerGroup.border": colors.deepTeal,
+    "pickerGroup.foreground": colors.mystic,
+    "terminal.background": colors.darkDeepTeal,
+    "terminal.foreground": colors.gallery,
+    "terminal.ansiBlack": colors.swamp,
+    "terminal.ansiBlue": colors.jordyBlue,
+    "terminal.ansiBrightBlack": colors.sherpaBlue,
+    "terminal.ansiBrightBlue": colors.skyBlue,
+    "terminal.ansiBrightCyan": colors.aqua,
+    "terminal.ansiBrightGreen": colors.green,
+    "terminal.ansiBrightMagenta": colors.lavenderRose,
+    "terminal.ansiBrightRed": colors.persimmmon,
+    "terminal.ansiBrightWhite": colors.mystic,
+    "terminal.ansiBrightYellow": colors.candlelight,
+    "terminal.ansiCyan": colors.aqua,
+    "terminal.ansiGreen": colors.malachite,
+    "terminal.ansiMagenta": colors.perfume,
+    "terminal.ansiRed": colors.sweetPink,
+    "terminal.ansiWhite": colors.gallery,
+    "terminal.ansiYellow": colors.lightingYellow,
     "terminal.selectionBackground": colors.translucent2,
     "terminalCursor.background": colors.translucent8,
-    "terminalCursor.foreground": colors.pure2,
-    "debugToolBar.background": colors.background4,
-    "welcomePage.buttonBackground": colors.background4,
-    "welcomePage.buttonHoverBackground": colors.dim1,
-    "walkThrough.embeddedEditorBackground": colors.background2,
-    "gitDecoration.modifiedResourceForeground": colors.call,
-    "gitDecoration.deletedResourceForeground": colors.base1,
-    "gitDecoration.untrackedResourceForeground": colors.accent2,
-    "gitDecoration.ignoredResourceForeground": colors.dim1,
-    "gitDecoration.conflictingResourceForeground": colors.accent2
+    "terminalCursor.foreground": colors.gallery,
+    "debugToolBar.background": colors.darkDeepTeal,
+    "welcomePage.buttonBackground": colors.sherpaBlue,
+    "welcomePage.buttonHoverBackground": colors.mystic,
+    "walkThrough.embeddedEditorBackground": colors.deepTeal,
+    "gitDecoration.modifiedResourceForeground": colors.perfume,
+    "gitDecoration.deletedResourceForeground": colors.aqua,
+    "gitDecoration.untrackedResourceForeground": colors.malachite,
+    "gitDecoration.ignoredResourceForeground": colors.mystic,
+    "gitDecoration.conflictingResourceForeground": colors.malachite
   },
   tokenColors: [
     {
+      name: "COMMENT",
       scope: [
         "comment",
-        "comment keyword",
-        "comment markup.underline.link",
-        "comment string",
-        "comment punctuation.definition",
-        "comment punctuation",
-        "comment text"
+        "punctuation.definition.comment",
+        "punctuation.definition.tag",
+        "comment.block.documentation punctuation.definition.bracket"
       ],
       settings: {
-        fontStyle: "italic",
-        foreground: colors.dim2
+        foreground: colors.teal
       }
     },
     {
-      scope: "comment storage.type",
-      settings: {
-        foreground: colors.dim2
-      }
-    },
-    {
-      scope: "comment entity.name.type",
-      settings: {
-        foreground: colors.dim4
-      }
-    },
-    {
-      scope: ["comment variable", "comment variable.other"],
-      settings: {
-        foreground: colors.dim4
-      }
-    },
-    {
-      scope: "comment keyword.codetag.notation",
-      settings: {
-        foreground: colors.const
-      }
-    },
-    {
-      scope: "comment.git-status.header.remote",
-      settings: {
-        foreground: colors.base1
-      }
-    },
-    {
-      scope: "comment.git-status.header.local",
-      settings: {
-        foreground: colors.accent1
-      }
-    },
-    {
-      scope: "comment.other.git-status.head",
-      settings: {
-        foreground: colors.pure2
-      }
-    },
-    {
-      scope: "constant",
-      settings: {
-        foreground: colors.const
-      }
-    },
-    {
-      scope: "constant.other",
-      settings: {
-        foreground: colors.pure2
-      }
-    },
-    {
-      scope: "constant.other.property",
-      settings: {
-        foreground: colors.const
-      }
-    },
-    {
-      scope: "constant.other.color",
-      settings: {
-        foreground: colors.const
-      }
-    },
-    {
-      scope: "constant.other.character-class.escape",
-      settings: {
-        foreground: colors.const
-      }
-    },
-    {
-      scope: "constant.other.key",
-      settings: {
-        foreground: colors.const
-      }
-    },
-    {
-      scope: "constant.other.symbol",
-      settings: {
-        foreground: colors.accent2
-      }
-    },
-    {
-      scope: "constant.numeric",
-      settings: {
-        foreground: colors.const
-      }
-    },
-    {
-      scope: "constant.language",
-      settings: {
-        foreground: colors.const
-      }
-    },
-    {
-      scope: "constant.character.escape",
-      settings: {
-        foreground: colors.const
-      }
-    },
-    {
-      scope: "constant.numeric.line-number.find-in-files",
-      settings: {
-        foreground: colors.dim1
-      }
-    },
-    {
-      scope: "constant.numeric.line-number.match.find-in-files",
-      settings: {
-        foreground: colors.base2
-      }
-    },
-    {
-      scope: "entity.name.section",
-      settings: {
-        foreground: colors.base2
-      }
-    },
-    {
-      scope: "entity.name",
-      settings: {
-        foreground: colors.call
-      }
-    },
-    {
-      scope: "entity.name.class",
-      settings: {
-        foreground: colors.accent1
-      }
-    },
-    {
-      scope: "entity.name.constant",
-      settings: {
-        foreground: colors.const
-      }
-    },
-    {
-      scope: "entity.name.namespace",
-      settings: {
-        foreground: colors.pure2
-      }
-    },
-    {
-      scope: "entity.other.inherited-class",
-      settings: {
-        fontStyle: "italic",
-        foreground: colors.accent1
-      }
-    },
-    {
-      scope: "entity.name.function",
-      settings: {
-        foreground: colors.call
-      }
-    },
-    {
+      name: "TEXT",
       scope: [
+        "constant.character",
+        "constant.escape",
+        "text.html.markdown",
+        "punctuation.definition.list_item",
+        "keyword.begin.tag.ejs",
+        "constant.name.attribute.tag.pug",
+        "source.clojure meta.symbol",
+        "constant.other.description.jsdoc",
+        "keyword.other.array.phpdoc.php",
+        "keyword.operator.other.powershell",
+        "meta.link.inline punctuation.definition.string",
+        "source.sql",
+        "source meta.brace",
+        "source punctuation",
+        "text.html punctuation",
+        "markup meta punctuation.definition",
+        "meta.bracket.julia",
+        "meta.array.julia",
+        "punctuation.separator.key-value"
+      ],
+      settings: {
+        foreground: colors.gallery
+      }
+    },
+    {
+      name: "KEYWORD",
+      scope: [
+        "keyword",
+        "keyword.control",
+        "keyword.other.template",
+        "keyword.other.substitution",
+        "storage.modifier",
+        "meta.tag.sgml",
+        "punctuation.accessor",
+        "constant.other.color",
+        "entity.name.section",
+        "markup.heading",
+        "markup.heading punctuation.definition",
+        "entity.other.attribute-name.pseudo-class",
+        "entity.other.attribute-name.pseudo-element",
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js punctuation.definition.tag.js",
+        "storage.type.function.pug",
+        "text.pug storage.type",
+        "text.pug meta.tag.other",
+        "source.clojure storage.control",
+        "meta.expression.clojure",
+        "punctuation.separator.slice.python",
+        "punctuation.separator.question-mark.cs",
+        "punctuation.definition.parameters.varargs",
+        "source.go keyword.operator",
+        "punctuation.definition.directive.c",
+        "punctuation.separator.pointer-access",
+        "punctuation.separator.other.ruby",
+        "keyword.package.go",
+        "keyword.import.go",
+        "punctuation.definition.keyword",
+        "storage.type.modifier.cpp",
+        "punctuation.separator.hash.cs",
+        "variable.parameter.rest.lua",
+        "entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+        "entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+        "source.kotlin storage.type.import",
+        "source.kotlin storage.type.package",
+        "constant.string.documentation.powershell",
+        "punctuation.section.directive",
+        "storage.type.rust",
+        "punctuation.definition.attribute",
+        "punctuation.definition.preprocessor",
+        "punctuation.separator.namespace",
+        "punctuation.separator.method"
+      ],
+      settings: {
+        foreground: colors.sweetPink
+      }
+    },
+    {
+      name: "VARIABLE",
+      scope: [
+        "variable",
+        "variable.object",
+        "variable.other",
+        "variable.parameter",
+        "support",
+        "string constant.other.placeholder",
+        "source.css.scss variable",
+        "entity.name.module",
+        "variable.import.parameter",
+        "variable.other.class",
+        "meta.toc-list.id.html",
+        "source.json meta.structure.dictionary.json support.type.property-name.json",
+        "markup.list",
+        "meta.var.clojure",
+        "source.cs entity.name.variable",
+        "source.java meta.class.body.java",
+        "entity.name.package.go",
+        "source.c",
+        "source.cpp",
+        "source.go",
+        "source.python",
+        "meta.function-call.arguments.python",
+        "source.ruby",
+        "source.coffee.embedded.source",
+        "source.coffee",
+        "storage.modifier.import",
+        "storage.modifier.package",
+        "storage.type.annotation",
+        "punctuation.definition.annotation",
+        "source.groovy.embedded.source",
+        "punctuation.definition.variable",
+        "source.powershell",
+        "string.quoted.interpolated.vala constant.character.escape.vala",
+        "source.apacheconf",
+        "source.objc",
+        "source.crystal",
+        "string.quoted.double.kotlin entity.string.template.element.kotlin",
+        "entity.name.package.kotlin",
+        "meta.template.expression.kotlin",
+        "parameter.variable.function",
+        "variable.other.constant.elixir",
+        "source.elixir.embedded.source",
+        "source.sql.embedded",
+        "punctuation.definition.placeholder",
+        "source.swift",
+        "source.julia"
+      ],
+      settings: {
+        foreground: colors.lightingYellow
+      }
+    },
+    {
+      name: "ANNOTATION",
+      scope: [
+        "support.variable.property",
+        "constant.other.symbol.hashkey.ruby",
+        "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
+        "entity.other.attribute-name.id.css",
+        "entity.other.attribute-name.id.css punctuation.definition.entity.css",
+        "entity.name.type.annotation.kotlin",
+        "support.type.primitive",
+        "meta.type.parameters entity.name.type",
+        "meta.type.annotation entity.name.type",
+        "punctuation.definition.typeparameters",
+        "source.python support.type.python",
+        "comment.block.documentation.phpdoc.php keyword.other.type.php",
+        "storage.type.php",
+        "keyword.type.cs",
+        "storage.type.cs",
+        "storage.type.c",
+        "storage.type.objc",
+        "punctuation.definition.storage.type.objc",
+        "markup punctuation.definition",
+        "storage.type.powershell",
+        "comment.block.documentation entity.name.type",
+        "source.java storage.type",
+        "storage.type.primitive",
+        "source.groovy storage.type",
+        "storage.type.r",
+        "source.haskell storage.type",
+        "punctuation.separator.clause-head-body",
+        "source.go storage.type",
+        "storage.type.core.rust",
+        "storage.class.std.rust",
+        "storage.modifier.lifetime.rust",
+        "entity.name.lifetime.rust",
+        "support.type.swift",
+        "support.type.vb",
+        "entity.name.type.kotlin",
+        "support.type.julia"
+      ],
+      settings: {
+        foreground: colors.lavenderRose
+      }
+    },
+    {
+      name: "CONSTANT",
+      scope: [
+        "constant",
+        "variable.other.constant",
+        "support.constant",
+        "punctuation.definition.entity",
+        "constant.character.entity",
+        "support.variable.magic",
+        "entity.other.attribute-name",
+        "markup.quote",
+        "entity.name.type.type-parameter.cs",
+        "punctuation.bracket.angle",
+        "entity.name.function.preprocessor.c",
+        "support.variable.lua",
+        "storage.type.scala",
+        "entity.helper.apacheconf",
+        "source.vala storage.type",
+        "variable.language.crystal",
+        "punctuation.definition.constant",
+        "support.constant punctuation.definition.variable"
+      ],
+      settings: {
+        foreground: colors.candlelight
+      }
+    },
+    {
+      name: "TAG",
+      scope: [
+        "variable.language",
+        "variable.parameter.function.language.special",
+        "markup.bold",
+        "markup.italic",
+        "punctuation.definition.italic",
+        "punctuation.definition.bold",
         "entity.name.tag",
-        "entity.name.tag.js.jsx support.class.component.js.jsx"
+        "variable.language punctuation.definition.variable.php",
+        "keyword.control.clojure",
+        "support.type.exception.python",
+        "keyword.other.this.cs",
+        "keyword.other.base.cs",
+        "keyword.other.var.cs",
+        "storage.modifier.super",
+        "source.go keyword",
+        "keyword.function.go",
+        "meta.separator",
+        "keyword.other.fn.rust",
+        "storage.modifier.static.rust",
+        "source.r meta.function.r keyword.control.r",
+        "storage.type.def",
+        "meta.class.identifier storage.modifier",
+        "source.scala keyword.declaration",
+        "storage.type",
+        "comment.block.documentation punctuation.definition.block.tag",
+        "comment.block.documentation punctuation.definition.inline.tag",
+        "entity.tag.apacheconf",
+        "keyword.other.julia",
+        "source.julia storage.modifier",
+        "constant.language.empty-list.haskell",
+        "keyword.declaration.scala",
+        "meta.function.powershell storage.type.powershell",
+        "keyword.control.fun",
+        "punctuation.terminator.function",
+        "keyword.other.rust",
+        "keyword.other.declaration-specifier.swift",
+        "keyword.control.function-end.lua",
+        "keyword.control.class",
+        "keyword.control.def"
       ],
       settings: {
-        foreground: colors.base1
+        foreground: colors.monaLisa
       }
     },
     {
-      scope: "entity.other.attribute-name",
-      settings: {
-        fontStyle: "italic",
-        foreground: colors.accent1
-      }
-    },
-    {
+      name: "STRING",
       scope: [
-        "entity.other.attribute-name.class.css",
-        "entity.other.attribute-name.parent-selector-suffix.css",
-        "entity.other.attribute-name.parent-selector-suffix.css punctuation.definition.entity.css"
+        "string",
+        "punctuation.definition.string",
+        "source.css support.constant",
+        "entity.name.import.go"
       ],
       settings: {
-        foreground: colors.call
+        foreground: colors.malachite
       }
     },
     {
-      scope: "entity.other.attribute-name.id.css",
+      name: "STRINGINTERPOLATED",
+      scope: [
+        "string.template",
+        "punctuation.definition.string.template",
+        "string.interpolated.python string.quoted.single.python",
+        "string.quoted.double.heredoc",
+        "string.quoted.interpolated.vala",
+        "string.quoted.interpolated.vala punctuation.definition.string",
+        "string.regexp.apacheconf",
+        "markup.inline.raw.string",
+        "markup.inline.raw punctuation.definition.raw",
+        "string.quoted.double.interpolated.crystal",
+        "string.quoted.double.interpolated.crystal punctuation.definition.string"
+      ],
       settings: {
-        foreground: colors.accent2
+        foreground: colors.green
       }
     },
     {
-      scope:
-        "entity.other.attribute-name.pseudo-class.cssentity.other.pseudo-class.css",
+      name: "NUMBER",
+      scope: [
+        "constant.numeric",
+        "constant.language",
+        "punctuation.separator.decimal.period.php",
+        "keyword.operator.null-conditional.cs",
+        "punctuation.separator.question-mark.cs",
+        "constant.integer.apacheconf",
+        "keyword.operator.nullable-type",
+        "constant.language punctuation.definition.variable"
+      ],
       settings: {
-        fontStyle: "italic",
-        foreground: colors.accent1
+        foreground: colors.perfume
       }
     },
     {
-      scope: ["entity.name.function", "support.function"],
+      name: "FUNCTION",
+      scope: [
+        "variable.function",
+        "source.css support.type.property-name",
+        "source.sass support.type.property-name",
+        "source.scss support.type.property-name",
+        "source.less support.type.property-name",
+        "source.stylus support.type.property-name",
+        "source.postcss support.type.property-name",
+        "keyword.other.unit",
+        "entity.name.function",
+        "string.other.link",
+        "markup.link",
+        "support.type.vendored",
+        "support.other.variable",
+        "meta.function-perfume.generic.python",
+        "meta.method-call.groovy meta.method.groovy",
+        "meta.class.body.groovy meta.method.body.java storage.type.groovy",
+        "punctuation.decorator.ts",
+        "punctuation.definition.decorator",
+        "support.function.any-method"
+      ],
       settings: {
-        foreground: colors.call
+        foreground: colors.aqua
       }
     },
     {
-      scope: "entity.other.git-status.hex",
+      name: "SUPPORT",
+      scope: [
+        "entity.name",
+        "entity.other",
+        "support.orther.namespace.use.php",
+        "meta.use.php",
+        "support.other.namespace.php",
+        "support.type",
+        "support.class",
+        "punctuation.definition.parameters",
+        "support.function",
+        "support.function.construct",
+        "markup.changed.git_gutter",
+        "markup.underline.link",
+        "markup.underline.link.image",
+        "markup.underline",
+        "meta.symbol.namespace.clojure",
+        "entity.name.type.namespace.cs",
+        "support.class.dart",
+        "entity.mime-type.apacheconf",
+        "keyword.operator.function.infix",
+        "entity.name.function.infix",
+        "entity.name.function.call.kotlin"
+      ],
       settings: {
-        foreground: colors.const
+        foreground: colors.skyBlue
       }
     },
     {
-      scope: "invalid",
+      name: "MISC",
+      scope: [
+        "source.js constant.other.object.key.js string.unquoted.label.js",
+        "source.js punctuation.section.embedded",
+        "punctuation.definition.template-expression",
+        "support.class",
+        "entity.name.type",
+        "storage.type.string.python",
+        "string.interpolated.pug",
+        "support.constant.handlebars",
+        "source.clojure punctuation.section.set",
+        "source.clojure punctuation.section.metadata",
+        "entity.global.clojure",
+        "source.python meta.function-call.python support.type.python",
+        "constant.character.format.placeholder.other.python",
+        "entity.other.inherited-class.python",
+        "punctuation.definition.interpolation",
+        "constant.other.placeholder.go",
+        "constant.other.placeholder.c",
+        "punctuation.section.embedded.begin.ruby",
+        "punctuation.section.embedded.end.ruby source.ruby",
+        "support.constant.math",
+        "entity.namespace.r",
+        "meta.method-call.groovy storage.type.groovy",
+        "entity.name.function-table.lua",
+        "source.scala entity.name.class.declaration",
+        "constant.character.escape",
+        "support.function.macro.julia",
+        "string.replacement.apacheconf",
+        "storage.modifier.using.vala",
+        "constant.other.haskell",
+        "source.objc entity.name.tag",
+        "string.quoted.other.literal.upper.crystal punctuation.definition.string",
+        "meta.embedded.line.crystal punctuation.section.embedded",
+        "meta.embedded.line.crystal punctuation.section.embedded source.crystal",
+        "source.scala entity.name.class",
+        "punctuation.section.embedded",
+        "punctuation.section.tag",
+        "punctuation.section.embedded source.swift"
+      ],
+      settings: {
+        foreground: colors.jordyBlue
+      }
+    },
+    {
+      name: "INVALID",
+      scope: ["invalid", "invalid.illegal"],
+      settings: {
+        foreground: colors.persimmmon
+      }
+    },
+    {
+      name: "ITALIC",
+      scope: [
+        "comment",
+        "storage.modifier",
+        "punctuation.definition.comment",
+        "entity.other",
+        "variable.language",
+        "support.type.vendored",
+        "support.constant.vendored",
+        "markup.quote",
+        "markup.italic",
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js punctuation.definition.tag.js",
+        "keyword.control.clojure",
+        "source.clojure meta.symbol.dynamic",
+        "keyword.other.this.cs",
+        "keyword.other.base.cs",
+        "variable.other.member.c",
+        "storage.class.std.rust",
+        "support.type.core.rust",
+        "variable.other.object.property",
+        "variable.other.property",
+        "source.r meta.function.r keyword.control.r",
+        "comment.line.roxygen.r keyword",
+        "comment.line.roxygen.r variable.parameter.r",
+        "keyword.control.inheritance.coffee",
+        "comment.block.documentation.phpdoc.php keyword",
+        "keyword.other.array.phpdoc.php",
+        "storage.type.modifier",
+        "comment.block.javadoc.java keyword",
+        "comment.block.javadoc.java variable.parameter.java",
+        "keyword.operator.documentation.powershell",
+        "variable.other.table.property.lua",
+        "storage.type.scala",
+        "variable.parameter.function.language.special",
+        "comment.block.documentation.scala keyword",
+        "comment.block.documentation.scala variable.parameter",
+        "support.function.builtin.go",
+        "constant.other.symbol.hashkey.ruby",
+        "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
+        "constant.other.symbol.ruby",
+        "source.vala storage.type.generic",
+        "variable.other.crystal",
+        "constant.other.table-name",
+        "constant.other.placeholder",
+        "variable.other.field",
+        "keyword.function.go",
+        "entity.alias.import.go",
+        "source.swift keyword.other.declaration-specifier",
+        "support.variable.swift",
+        "keyword.other.capture-specifier"
+      ],
       settings: {
         fontStyle: "italic"
       }
     },
     {
-      scope: "keyword",
-      settings: {
-        foreground: colors.base1
-      }
-    },
-    {
-      scope: "keyword.control",
-      settings: {
-        foreground: colors.base1
-      }
-    },
-    {
-      scope: "keyword.operator",
-      settings: {
-        foreground: colors.base1
-      }
-    },
-    {
-      scope: "keyword.other.substitution",
-      settings: {
-        foreground: colors.dim3
-      }
-    },
-    {
-      scope: "keyword.other.template.beginkeyword.other.template.end",
-      settings: {
-        foreground: colors.base1
-      }
-    },
-    {
+      name: "BOLD",
       scope: [
-        "keyword.operator.heading.restructuredtext",
-        "keyword.operator.table.row.restructuredtext",
-        "keyword.operator.table.data.restructuredtext"
+        "keyword",
+        "keyword.control",
+        "keyword.operator",
+        "keyword.other.template",
+        "keyword.other.substitution",
+        "storage.type.function.arrow",
+        "constant.other.color",
+        "punctuation.accessor",
+        "entity.name.section",
+        "markup.bold",
+        "markup.bold string",
+        "markdown.heading",
+        "markup.inline.raw punctuation.definition.raw",
+        "markup.heading",
+        "storage.type.function.pug",
+        "storage.type.function.python",
+        "punctuation.definition.typeparameters",
+        "storage.type.annotation",
+        "punctuation.bracket.angle",
+        "keyword.other.new",
+        "punctuation.separator.question-mark.cs",
+        "storage.type.generic.wildcard",
+        "source.go keyword.operator",
+        "punctuation.separator.namespace",
+        "constant.other.symbol.ruby punctuation.definition.constant.ruby",
+        "variable.parameter",
+        "support.function.builtin.rust",
+        "storage.type.function.coffee",
+        "source.cs entity.name.variable.parameter",
+        "punctuation.separator.hash.cs",
+        "constant.other.symbol.ruby punctuation.definition.constant.ruby",
+        "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
+        "meta.function.parameters variable.other",
+        "keyword.declaration.scala",
+        "entity.name.type.annotation.kotlin",
+        "storage.type.function.kotlin",
+        "support.type.primitive",
+        "source.python support.type.python",
+        "storage.type.php",
+        "keyword.type.cs",
+        "storage.type.objc",
+        "parameter.variable.function",
+        "markup punctuation.definition",
+        "storage.type.primitive",
+        "punctuation.section.directive",
+        "punctuation.definition.preprocessor",
+        "punctuation.definition.variable",
+        "punctuation.separator.method"
       ],
-      settings: {
-        foreground: colors.dim3
-      }
-    },
-    {
-      scope: "markup.italic",
-      settings: {
-        fontStyle: "italic"
-      }
-    },
-    {
-      scope: "markup.bold",
       settings: {
         fontStyle: "bold"
       }
     },
     {
-      scope: "markup.heading",
-      settings: {
-        foreground: colors.base2
-      }
-    },
-    {
-      scope: "markup.raw",
-      settings: {
-        foreground: colors.accent2
-      }
-    },
-    {
-      scope: "markup.underline",
-      settings: {
-        fontStyle: "underline"
-      }
-    },
-    {
-      scope: "markup.underline.link",
-      settings: {
-        foreground: colors.call
-      }
-    },
-    {
+      name: "BOLD-ITALIC",
       scope: [
-        "markup.inserted",
-        "markup.inserted punctuation.definition.inserted"
+        "markup.bold markup.italic",
+        "markup.italic markup.bold",
+        "markup.quote markup.bold",
+        "markup.bold markup.italic string",
+        "markup.italic markup.bold string",
+        "markup.quote markup.bold string",
+        "text.html punctuation.section.embedded",
+        "variable.other.c",
+        "meta.function.constructor.cpp entity.name.function.cpp",
+        "meta.function.destructor.cpp entity.name.function.cpp",
+        "storage.modifier.lifetime.rust",
+        "entity.name.lifetime.rust",
+        "source.rust meta.attribute.rust",
+        "meta.attribute.id entity.other.attribute-name",
+        "keyword.other.fn.rust"
       ],
       settings: {
-        foreground: colors.call
+        fontStyle: "bold italic"
       }
     },
     {
+      name: "NORMAL",
       scope: [
-        "markup.deleted",
-        "markup.deleted punctuation.definition.deleted"
+        "keyword.begin.tag.ejs",
+        "source.python meta.function.decorator.python support.type.python",
+        "source.cs keyword.other",
+        "keyword.other.var.cs",
+        "source.go keyword",
+        "storage.modifier.static.rust",
+        "variable.parameter.r",
+        "variable.parameter.handlebars",
+        "storage.modifier.import",
+        "storage.modifier.package",
+        "meta.class.identifier storage.modifier",
+        "keyword.operator.other.powershell",
+        "source.lua storage.type.function",
+        "source.scala keyword.declaration",
+        "source.css variable.parameter",
+        "storage.type.primitive.dart",
+        "string.interpolated variable.parameter",
+        "source.apacheconf keyword",
+        "keyword.other.julia",
+        "storage.modifier.using.vala",
+        "source.objc keyword.other.property.attribute",
+        "source.sql keyword.other",
+        "keyword.other.using.vala",
+        "keyword.operator.function.infix",
+        "keyword.control.directive",
+        "keyword.other.rust",
+        "keyword.other.declaration-specifier.swift",
+        "entity.name.function.swift",
+        "keyword.control.function-end.lua",
+        "keyword.control.class",
+        "keyword.control.def"
       ],
       settings: {
-        foreground: colors.base1
-      }
-    },
-    {
-      scope: [
-        "markup.changed",
-        "markup.changed punctuation.definition.changed"
-      ],
-      settings: {
-        foreground: colors.base1
-      }
-    },
-    {
-      scope: [
-        "markup.ignored",
-        "markup.ignored punctuation.definition.ignored"
-      ],
-      settings: {
-        foreground: colors.dim3
-      }
-    },
-    {
-      scope: "markup.untracked",
-      settings: {
-        foreground: colors.dim3
-      }
-    },
-    {
-      scope: "markup.quote",
-      settings: {
-        fontStyle: "italic"
-      }
-    },
-    {
-      scope: [
-        "meta.brace.round",
-        "meta.brace.square",
-        "meta.brace.curly",
-        "meta.delimiter.comma.js",
-        "meta.function-call.without-arguments.js",
-        "meta.function-call.method.without-arguments.js"
-      ],
-      settings: {
-        foreground: colors.dim3
-      }
-    },
-    {
-      scope: [
-        "meta.function-call",
-        "meta.function-call.arguments meta.function-call"
-      ],
-      settings: {
-        foreground: colors.call
-      }
-    },
-    {
-      scope: [
-        "meta.function-call meta.function-call.arguments",
-        "meta.function-call meta.arguments",
-        "meta.function-call meta.group"
-      ],
-      settings: {
-        foreground: colors.pure2
-      }
-    },
-    {
-      scope: "meta.instance.constructor",
-      settings: {
-        foreground: colors.call
-      }
-    },
-    {
-      scope: "meta.attribute-with-value.class string",
-      settings: {
-        foreground: colors.call
-      }
-    },
-    {
-      scope: "meta.attribute-with-value.id string",
-      settings: {
-        foreground: colors.accent2
-      }
-    },
-    {
-      scope: [
-        "source.json meta.structure.dictionary",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary",
-        "source.json meta.structure.dictionary string",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string",
-        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string"
-      ],
-      settings: {
-        foreground: colors.pure2
-      }
-    },
-    {
-      scope: [
-        "source.json meta.structure.dictionary.value string",
-        "source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string",
-        "source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string",
-        "source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string",
-        "source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string",
-        "source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string",
-        "source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string",
-        "source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string",
-        "source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string",
-        "source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string",
-        "source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string",
-        "source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string",
-        "source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string",
-        "source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string",
-        "source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string",
-        "source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string"
-      ],
-      settings: {
-        foreground: colors.base1
-      }
-    },
-    {
-      scope: "meta.object.member",
-      settings: {
-        foreground: colors.pure2
-      }
-    },
-    {
-      scope: "meta.property-list.css variable.other",
-      settings: {
-        foreground: colors.accent2
-      }
-    },
-    {
-      scope: ["entity.name.constant.preprocessor", "meta.preprocessor"],
-      settings: {
-        foreground: colors.const
-      }
-    },
-    {
-      scope: "meta.diff.git-diff.header",
-      settings: {
-        foreground: colors.base1
-      }
-    },
-    {
-      scope: "punctuation",
-      settings: {
-        foreground: colors.dim3
-      }
-    },
-    {
-      scope: [
-        "punctuation.definition.tag",
-        "punctuation.definition.tag source",
-        "punctuation.definition.group.begin.ruby",
-        "punctuation.definition.group.end.ruby"
-      ],
-      settings: {
-        foreground: colors.dim3
-      }
-    },
-    {
-      scope: "punctuation.definition.group",
-      settings: {
-        foreground: colors.pure2
-      }
-    },
-    {
-      scope: "punctuation.definition.comment",
-      settings: {
-        foreground: colors.dim2
-      }
-    },
-    {
-      scope: [
-        "punctuation.definition.variable",
-        "punctuation.definition.keyword.scss",
-        "punctuation.definition.entity.css"
-      ],
-      settings: {
-        foreground: colors.dim4
-      }
-    },
-    {
-      scope: [
-        "punctuation.section.embedded",
-        "punctuation.section.embedded entity.name.tag",
-        "punctuation.section.embedded constant.other",
-        "punctuation.section.embedded source"
-      ],
-      settings: {
-        foreground: colors.accent2
-      }
-    },
-    {
-      scope: [
-        "punctuation.template-string.element.begin",
-        "punctuation.template-string.element.end",
-        "punctuation.definition.string.template.begin",
-        "punctuation.definition.string.template.end",
-        "string.quoted.template punctuation.definition.string.begin",
-        "string.quoted.template punctuation.definition.string.end"
-      ],
-      settings: {
-        foreground: colors.base1
-      }
-    },
-    {
-      scope: [
-        "meta.paragraph.markdown meta.dummy.line-break",
-        "meta.paragraph.markdown meta.hard-line-break.markdown"
-      ],
-      settings: {
-        background: colors.const
-      }
-    },
-    {
-      scope: "region.redish",
-      settings: {
-        foreground: colors.base1
-      }
-    },
-    {
-      scope: "region.orangish",
-      settings: {
-        foreground: colors.accent2
-      }
-    },
-    {
-      scope: "region.yellowish",
-      settings: {
-        foreground: colors.base2
-      }
-    },
-    {
-      scope: "region.greenish",
-      settings: {
-        foreground: colors.call
-      }
-    },
-    {
-      scope: "region.bluish",
-      settings: {
-        foreground: colors.accent1
-      }
-    },
-    {
-      scope: "region.purplish",
-      settings: {
-        foreground: colors.const
-      }
-    },
-    {
-      scope: "region.pinkish",
-      settings: {
-        foreground: colors.base1
-      }
-    },
-    {
-      scope: "region.whitish",
-      settings: {
-        foreground: colors.pure1
-      }
-    },
-    {
-      scope: "source",
-      settings: {
-        foreground: colors.pure2
-      }
-    },
-    {
-      scope: ["source.scss", "source.sass"],
-      settings: {
-        foreground: colors.dim3
-      }
-    },
-    {
-      scope: [
-        "source.sass variable.other",
-        "source.sass variable.sass",
-        "source.scss variable.other",
-        "source.scss variable.scss",
-        "source.scss variable.sass",
-        "source.css variable.other",
-        "source.css variable.scss",
-        "source.less variable.other",
-        "source.less variable.other.less",
-        "source.less variable.declaration.less"
-      ],
-      settings: {
-        fontStyle: "italic",
-        foreground: colors.accent2
-      }
-    },
-    {
-      scope: "source.git-show.commit.sha",
-      settings: {
-        foreground: colors.const
-      }
-    },
-    {
-      scope: [
-        "source.git-show.author",
-        "source.git-show.date",
-        "source.git-diff.command",
-        "source.git-diff.command meta.diff.git-diff.header.from-file",
-        "source.git-diff.command meta.diff.git-diff.header.to-file"
-      ],
-      settings: {
-        foreground: colors.dim3
-      }
-    },
-    {
-      scope: [
-        "source.git-show meta.diff.git-diff.header.extended.index.from-sha",
-        "source.git-show meta.diff.git-diff.header.extended.index.to-sha"
-      ],
-      settings: {
-        foreground: colors.const
-      }
-    },
-    {
-      scope: "source.git-show meta.diff.range.unified",
-      settings: {
-        foreground: colors.accent2
-      }
-    },
-    {
-      scope: [
-        "source.git-show meta.diff.header.from-file",
-        "source.git-show meta.diff.header.to-file"
-      ],
-      settings: {
-        foreground: colors.dim3
-      }
-    },
-    {
-      scope: "storage",
-      settings: {
-        foreground: colors.base1
-      }
-    },
-    {
-      scope: "storage.type",
-      settings: {
-        fontStyle: "italic",
-        foreground: colors.accent1
-      }
-    },
-    {
-      scope: "storage.type.extends",
-      settings: {
-        fontStyle: "normal",
-        foreground: colors.base1
-      }
-    },
-    {
-      scope: "storage.type.function.arrow",
-      settings: {
-        fontStyle: "normal",
-        foreground: colors.base1
-      }
-    },
-    {
-      scope: "storage.modifier",
-      settings: {
-        fontStyle: "italic",
-        foreground: colors.base1
-      }
-    },
-    {
-      scope: "storage.class.restructuredtext.ref",
-      settings: {
-        foreground: colors.const
-      }
-    },
-    {
-      scope: ["storage.modifier.package", "storage.modifier.import"],
-      settings: {
-        foreground: colors.pure2
-      }
-    },
-    {
-      scope: "string",
-      settings: {
-        foreground: colors.accent2
-      }
-    },
-    {
-      scope: "string.unquoted.label",
-      settings: {
-        foreground: colors.pure2
-      }
-    },
-    {
-      scope: "string source",
-      settings: {
-        foreground: colors.pure2
-      }
-    },
-    {
-      scope: "string source punctuation.section.embedded",
-      settings: {
-        foreground: colors.dim3
-      }
-    },
-    {
-      scope: ["string.other.link.title", "string.other.link.description"],
-      settings: {
-        foreground: colors.base1
-      }
-    },
-    {
-      scope: "string.other.link.description.title",
-      settings: {
-        foreground: colors.accent1
-      }
-    },
-    {
-      scope: [
-        "string.regexp punctuation.definition.string.begin",
-        "string.regexp punctuation.definition.string.end"
-      ],
-      settings: {
-        foreground: colors.base1
-      }
-    },
-    {
-      scope: ["string.other.ref", "string.other.restructuredtext.ref"],
-      settings: {
-        foreground: colors.call
-      }
-    },
-    {
-      scope: "string.other.git-status.help.key",
-      settings: {
-        foreground: colors.dim4
-      }
-    },
-    {
-      scope: "string.other.git-status.remote",
-      settings: {
-        foreground: colors.base1
-      }
-    },
-    {
-      scope: "support.constant",
-      settings: {
-        foreground: colors.accent1
-      }
-    },
-    {
-      scope: "support.constant.handlebars",
-      settings: {
-        foreground: colors.dim3
-      }
-    },
-    {
-      scope: "support.function",
-      settings: {
-        foreground: colors.call
-      }
-    },
-    {
-      scope: ["support.type", "entity.name.type.object.console"],
-      settings: {
-        fontStyle: "italic",
-        foreground: colors.accent1
-      }
-    },
-    {
-      scope: "support.variable",
-      settings: {
-        foreground: colors.accent1
-      }
-    },
-    {
-      scope: "support.type.property-name",
-      settings: {
-        fontStyle: "normal",
-        foreground: colors.pure2
-      }
-    },
-    {
-      scope: "support.class",
-      settings: {
-        foreground: colors.accent1
-      }
-    },
-    {
-      scope: "text",
-      settings: {
-        foreground: colors.pure2
-      }
-    },
-    {
-      scope: "text.find-in-files",
-      settings: {
-        foreground: colors.pure2
-      }
-    },
-    {
-      scope: ["variable", "variable.other"],
-      settings: {
-        foreground: colors.pure2
-      }
-    },
-    {
-      scope: ["variable.parameter", "parameters variable.function"],
-      settings: {
-        fontStyle: "italic",
-        foreground: colors.accent2
-      }
-    },
-    {
-      scope: [
-        "variable.language",
-        "variable.parameter.function.language.special.self.python"
-      ],
-      settings: {
-        fontStyle: "italic",
-        foreground: colors.dim4
-      }
-    },
-    {
-      scope: "variable.language.arguments",
-      settings: {
-        foreground: colors.const
-      }
-    },
-    {
-      scope: "variable.other.class",
-      settings: {
-        foreground: colors.accent1
-      }
-    },
-    {
-      scope: "variable.other.constant",
-      settings: {
-        foreground: colors.const
-      }
-    },
-    {
-      scope: "variable.other.member",
-      settings: {
-        foreground: colors.pure2
-      }
-    },
-    {
-      scope: "variable.function",
-      settings: {
-        foreground: colors.call
-      }
-    },
-    {
-      scope: "variable.other.substitution",
-      settings: {
-        foreground: colors.accent2
-      }
-    },
-    {
-      scope: [
-        "source.ruby variable.other.readwrite.instance.ruby",
-        "source.ruby variable.other.readwrite.class.ruby"
-      ],
-      settings: {
-        foreground: colors.const
+        fontStyle: ""
       }
     }
   ]

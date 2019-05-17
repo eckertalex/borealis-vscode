@@ -1,847 +1,856 @@
 export default colors => ({
-  name: "Borealis",
-  type: "dark",
-  colors: {
-    "focusBorder": colors.teal,
-    "foreground": colors.gallery,
-    "widget.shadow": colors.swamp,
-    "selection.background": colors.sherpaBlue,
-    "descriptionForeground": colors.opal,
-    "errorForeground": colors.aqua,
-    "textBlockQuote.background": colors.sherpaBlue,
-    "textBlockQuote.border": colors.sherpaBlue,
-    "textCodeBlock.background": colors.sherpaBlue,
-    "textLink.activeForeground": colors.gallery,
-    "textLink.foreground": colors.candlelight,
-    "textPreformat.foreground": colors.gallery,
-    "textSeparator.foreground": colors.teal,
-    "button.background": colors.sherpaBlue,
-    "button.foreground": colors.opal,
-    "button.hoverBackground": colors.deepTeal,
-    "dropdown.background": colors.deepTeal,
-    "dropdown.listBackground": colors.sherpaBlue,
-    "dropdown.border": colors.deepTeal,
-    "dropdown.foreground": colors.opal,
-    "input.background": colors.sherpaBlue,
-    "input.border": colors.sherpaBlue,
-    "input.foreground": colors.gallery,
-    "input.placeholderForeground": colors.mystic,
-    "inputOption.activeBorder": colors.mystic,
-    "inputValidation.errorBackground": colors.sherpaBlue,
-    "inputValidation.errorBorder": colors.aqua,
-    "inputValidation.infoBackground": colors.sherpaBlue,
-    "inputValidation.infoBorder": colors.lightingYellow,
-    "inputValidation.warningBackground": colors.sherpaBlue,
-    "inputValidation.warningBorder": colors.malachite,
-    "scrollbar.shadow": colors.deepTeal,
-    "scrollbarSlider.activeBackground": colors.translucent9,
-    "scrollbarSlider.background": colors.translucent9,
-    "scrollbarSlider.hoverBackground": colors.translucent9,
-    "badge.foreground": colors.deepTeal,
-    "badge.background": colors.candlelight,
-    "progressBar.background": colors.sherpaBlue,
-    "list.activeSelectionBackground": colors.deepTeal,
-    "list.activeSelectionForeground": colors.candlelight,
-    "list.errorForeground": colors.aqua,
-    "list.warningForeground": colors.malachite,
-    "list.dropBackground": colors.translucent,
-    "list.focusBackground": colors.deepTeal,
-    "list.focusForeground": colors.gallery,
-    "list.highlightForeground": colors.gallery,
-    "list.hoverBackground": colors.darkDeepTeal,
-    "list.hoverForeground": colors.gallery,
-    "list.inactiveSelectionBackground": colors.deepTeal,
-    "list.inactiveSelectionForeground": colors.candlelight,
-    "list.inactiveFocusBackground": colors.deepTeal,
-    "list.invalidItemForeground": colors.aqua,
-    "activityBar.background": colors.swamp,
-    "activityBar.dropBackground": colors.translucent,
-    "activityBar.foreground": colors.opal,
-    "activityBar.border": colors.swamp,
-    "activityBarBadge.background": colors.candlelight,
-    "activityBarBadge.foreground": colors.deepTeal,
-    "sideBar.background": colors.darkDeepTeal,
-    "sideBar.foreground": colors.opal,
-    "sideBar.border": colors.swamp,
-    "sideBar.dropBackground": colors.translucent,
-    "sideBarTitle.foreground": colors.mystic,
-    "sideBarSectionHeader.background": colors.darkDeepTeal,
-    "sideBarSectionHeader.foreground": colors.teal,
-    "editorGroup.background": colors.swamp,
-    "editorGroup.border": colors.darkDeepTeal,
-    "editorGroup.dropBackground": colors.translucent,
-    "editorGroupHeader.noTabsBackground": colors.deepTeal,
-    "editorGroupHeader.tabsBackground": colors.deepTeal,
-    "editorGroupHeader.tabsBorder": colors.deepTeal,
-    "tab.activeBackground": colors.deepTeal,
-    "tab.activeForeground": colors.candlelight,
-    "tab.border": colors.deepTeal,
-    "tab.activeBorder": colors.candlelight,
-    "tab.unfocusedActiveBorder": colors.opal,
-    "tab.inactiveBackground": colors.deepTeal,
-    "tab.inactiveForeground": colors.opal,
-    "tab.unfocusedActiveForeground": colors.sweetPink,
-    "tab.unfocusedInactiveForeground": colors.opal,
-    "tab.hoverBackground": colors.deepTeal,
-    "tab.unfocusedHoverBackground": colors.deepTeal,
-    "tab.hoverBorder": colors.mystic,
-    "tab.unfocusedHoverBorder": colors.deepTeal,
-    "editor.background": colors.deepTeal,
-    "editor.foreground": colors.gallery,
-    "editorLineNumber.foreground": colors.mystic,
-    "editorLineNumber.activeForeground": colors.sweetPink,
-    "editorCursor.background": colors.translucent8,
-    "editorCursor.foreground": colors.gallery,
-    "editor.selectionBackground": colors.sherpaBlue,
-    "editor.inactiveSelectionBackground": colors.translucent3,
-    "editor.selectionHighlightBackground": colors.translucent2,
-    "editor.selectionHighlightBorder": colors.translucent8,
-    "editor.wordHighlightBackground": colors.translucent2,
-    "editor.wordHighlightBorder": colors.translucent8,
-    "editor.wordHighlightStrongBackground": colors.translucent2,
-    "editor.wordHighlightStrongBorder": colors.translucent8,
-    "editor.findMatchBackground": colors.translucent2,
-    "editor.findMatchBorder": colors.candlelight,
-    "editor.findMatchHighlightBackground": colors.translucent2,
-    "editor.findMatchHighlightBorder": colors.translucent8,
-    "editor.findRangeHighlightBackground": colors.translucent3,
-    "editor.findRangeHighlightBorder": colors.translucent8,
-    "editor.hoverHighlightBackground": colors.translucent3,
-    "editor.lineHighlightBackground": colors.translucent3,
-    "editor.lineHighlightBorder": colors.translucent8,
-    "editorLink.activeForeground": colors.lightingYellow,
-    "editor.rangeHighlightBackground": colors.sherpaBlue,
-    "editor.rangeHighlightBorder": colors.sherpaBlue,
-    "editorWhitespace.foreground": colors.mystic,
-    "editorIndentGuide.background": colors.sherpaBlue,
-    "editorRuler.foreground": colors.mystic,
-    "editorCodeLens.foreground": colors.teal,
-    "editorBracketMatch.background": colors.deepTeal,
-    "editorBracketMatch.border": colors.teal,
-    "editorError.foreground": colors.aqua,
-    "editorError.border": colors.translucent8,
-    "editorWarning.foreground": colors.malachite,
-    "editorWarning.border": colors.translucent8,
-    "editorInfo.foreground": colors.lightingYellow,
-    "editorInfo.border": colors.deepTeal,
-    "editorHint.foreground": colors.lavenderRose,
-    "editorHint.border": colors.deepTeal,
-    "editorGutter.background": colors.deepTeal,
-    "editorGutter.modifiedBackground": colors.malachite,
-    "editorGutter.addedBackground": colors.perfume,
-    "editorGutter.deletedBackground": colors.aqua,
-    "diffEditor.insertedTextBackground": colors.translucent4,
-    "diffEditor.insertedTextBorder": colors.translucent8,
-    "diffEditor.removedTextBackground": colors.translucent6,
-    "diffEditor.removedTextBorder": colors.translucent8,
-    "editorWidget.background": colors.sherpaBlue,
-    "editorWidget.border": colors.sherpaBlue,
-    "editorSuggestWidget.background": colors.sherpaBlue,
-    "editorSuggestWidget.border": colors.sherpaBlue,
-    "editorSuggestWidget.foreground": colors.sweetPink,
-    "editorSuggestWidget.highlightForeground": colors.gallery,
-    "editorSuggestWidget.selectedBackground": colors.teal,
-    "editorHoverWidget.background": colors.sherpaBlue,
-    "editorHoverWidget.border": colors.deepTeal,
-    "debugExceptionWidget.background": colors.sherpaBlue,
-    "debugExceptionWidget.border": colors.deepTeal,
-    "editorMarkerNavigation.background": colors.sherpaBlue,
-    "editorMarkerNavigationError.background": colors.aqua,
-    "editorMarkerNavigationWarning.background": colors.malachite,
-    "editorMarkerNavigationInfo.background": colors.lightingYellow,
-    "peekView.border": colors.deepTeal,
-    "peekViewEditor.background": colors.sherpaBlue,
-    "peekViewEditorGutter.background": colors.sherpaBlue,
-    "peekViewEditor.matchHighlightBackground": colors.mystic,
-    "peekViewResult.background": colors.sherpaBlue,
-    "peekViewResult.fileForeground": colors.opal,
-    "peekViewResult.lineForeground": colors.opal,
-    "peekViewResult.matchHighlightBackground": colors.mystic,
-    "peekViewResult.selectionBackground": colors.sherpaBlue,
-    "peekViewResult.selectionForeground": colors.gallery,
-    "peekViewTitle.background": colors.sherpaBlue,
-    "peekViewTitleDescription.foreground": colors.opal,
-    "peekViewTitleLabel.foreground": colors.gallery,
-    "merge.currentHeaderBackground": colors.translucent7,
-    "merge.currentContentBackground": colors.translucent6,
-    "merge.incomingHeaderBackground": colors.translucent5,
-    "merge.incomingContentBackground": colors.translucent4,
-    "merge.border": colors.deepTeal,
-    "merge.commonHeaderBackground": colors.translucent2,
-    "merge.commonContentBackground": colors.translucent3,
-    "editorOverviewRuler.border": colors.deepTeal,
-    "editorOverviewRuler.currentContentForeground": colors.sherpaBlue,
-    "editorOverviewRuler.incomingContentForeground": colors.sherpaBlue,
-    "editorOverviewRuler.findMatchForeground": colors.translucent2,
-    "editorOverviewRuler.rangeHighlightForeground": colors.translucent2,
-    "editorOverviewRuler.selectionHighlightForeground": colors.translucent2,
-    "editorOverviewRuler.wordHighlightForeground": colors.translucent2,
-    "editorOverviewRuler.wordHighlightStrongForeground": colors.translucent2,
-    "editorOverviewRuler.modifiedForeground": colors.malachite,
-    "editorOverviewRuler.addedForeground": colors.perfume,
-    "editorOverviewRuler.deletedForeground": colors.aqua,
-    "editorOverviewRuler.errorForeground": colors.aqua,
-    "editorOverviewRuler.warningForeground": colors.malachite,
-    "editorOverviewRuler.infoForeground": colors.lightingYellow,
-    "panel.background": colors.darkDeepTeal,
-    "panel.border": colors.candlelight,
-    "panel.dropBackground": colors.translucent,
-    "panelTitle.activeBorder": colors.candlelight,
-    "panelTitle.activeForeground": colors.candlelight,
-    "panelTitle.inactiveForeground": colors.opal,
-    "statusBar.background": colors.darkDeepTeal,
-    "statusBar.foreground": colors.teal,
-    "statusBar.border": colors.swamp,
-    "statusBar.debuggingBackground": colors.teal,
-    "statusBar.debuggingForeground": colors.gallery,
-    "statusBar.debuggingBorder": colors.darkDeepTeal,
-    "statusBar.noFolderBackground": colors.darkDeepTeal,
-    "statusBar.noFolderForeground": colors.teal,
-    "statusBar.noFolderBorder": colors.swamp,
-    "statusBarItem.activeBackground": colors.deepTeal,
-    "statusBarItem.hoverBackground": colors.deepTeal,
-    "statusBarItem.prominentBackground": colors.sherpaBlue,
-    "statusBarItem.prominentHoverBackground": colors.sherpaBlue,
-    "titleBar.activeBackground": colors.darkDeepTeal,
-    "titleBar.activeForeground": colors.opal,
-    "titleBar.inactiveBackground": colors.darkDeepTeal,
-    "titleBar.inactiveForeground": colors.mystic,
-    "titleBar.border": colors.swamp,
-    "notificationCenter.border": colors.sherpaBlue,
-    "notificationCenterHeader.foreground": colors.opal,
-    "notificationCenterHeader.background": colors.sherpaBlue,
-    "notificationToast.border": colors.sherpaBlue,
-    "notifications.foreground": colors.sweetPink,
-    "notifications.background": colors.sherpaBlue,
-    "notifications.border": colors.sherpaBlue,
-    "notificationLink.foreground": colors.candlelight,
-    "extensionButton.prominentForeground": colors.gallery,
-    "extensionButton.prominentBackground": colors.sherpaBlue,
-    "extensionButton.prominentHoverBackground": colors.mystic,
-    "pickerGroup.border": colors.deepTeal,
-    "pickerGroup.foreground": colors.mystic,
-    "terminal.background": colors.darkDeepTeal,
-    "terminal.foreground": colors.gallery,
-    "terminal.ansiBlack": colors.swamp,
-    "terminal.ansiBlue": colors.jordyBlue,
-    "terminal.ansiBrightBlack": colors.sherpaBlue,
-    "terminal.ansiBrightBlue": colors.skyBlue,
-    "terminal.ansiBrightCyan": colors.aqua,
-    "terminal.ansiBrightGreen": colors.green,
-    "terminal.ansiBrightMagenta": colors.lavenderRose,
-    "terminal.ansiBrightRed": colors.persimmmon,
-    "terminal.ansiBrightWhite": colors.mystic,
-    "terminal.ansiBrightYellow": colors.candlelight,
-    "terminal.ansiCyan": colors.aqua,
-    "terminal.ansiGreen": colors.malachite,
-    "terminal.ansiMagenta": colors.perfume,
-    "terminal.ansiRed": colors.sweetPink,
-    "terminal.ansiWhite": colors.gallery,
-    "terminal.ansiYellow": colors.lightingYellow,
-    "terminal.selectionBackground": colors.translucent2,
-    "terminalCursor.background": colors.translucent8,
-    "terminalCursor.foreground": colors.gallery,
-    "debugToolBar.background": colors.darkDeepTeal,
-    "welcomePage.buttonBackground": colors.sherpaBlue,
-    "welcomePage.buttonHoverBackground": colors.mystic,
-    "walkThrough.embeddedEditorBackground": colors.deepTeal,
-    "gitDecoration.modifiedResourceForeground": colors.perfume,
-    "gitDecoration.deletedResourceForeground": colors.aqua,
-    "gitDecoration.untrackedResourceForeground": colors.malachite,
-    "gitDecoration.ignoredResourceForeground": colors.mystic,
-    "gitDecoration.conflictingResourceForeground": colors.malachite
+  "name": "Borealis",
+  "type": "dark",
+  "colors": {
+    // activityBar
+    "activityBar.background": colors.color9,
+    "activityBar.border": colors.color8,
+    "activityBar.dropBackground": colors.color8,
+    "activityBar.foreground": colors.color56,
+    "activityBarBadge.background": colors.color51,
+    "activityBarBadge.foreground": colors.color0,
+    // badge
+    "badge.background": colors.color51,
+    "badge.foreground": colors.color0,
+    // button
+    "button.background": colors.color6,
+    "button.foreground": colors.color56,
+    "button.hoverBackground": colors.color49,
+    // contrast
+    "contrastActiveBorder": null,
+    "contrastBorder": colors.color57,
+    // debug
+    "debugExceptionWidget.background": colors.color14,
+    "debugExceptionWidget.border": colors.color38,
+    "debugToolBar.background": colors.color14,
+    // description
+    "descriptionForeground": colors.color38,
+    // diff
+    "diffEditor.insertedTextBackground": colors.color24,
+    "diffEditor.insertedTextBorder": colors.color25,
+    "diffEditor.removedTextBackground": colors.color42,
+    "diffEditor.removedTextBorder": colors.color43,
+    // dropdown
+    "dropdown.background": colors.color14,
+    "dropdown.border": colors.color12,
+    "dropdown.foreground": colors.color56,
+    // editor
+    // This is the main background color
+    "editor.background": colors.color14,
+    // this is the main text colour
+    "editor.foreground": colors.color56,
+    // Okay this part is confusing as heck!
+    // Currently found item
+    "editor.findMatchBackground": colors.color48,
+    // Other Found Items int the document
+    "editor.findMatchHighlightBackground": colors.color40,
+    // WTF is this one for? I don't know
+    "editor.findRangeHighlightBackground": colors.color19,
+    // When you hover over something and a popup shows, this highlights that thing
+    "editor.hoverHighlightBackground": colors.color52,
+    // when you have something selected, but have lost focus on the editor
+    "editor.inactiveSelectionBackground": colors.color3,
+    // current line styles
+    "editor.lineHighlightBackground": colors.color16,
+    "editor.lineHighlightBorder": colors.color18,
+    "editor.rangeHighlightBackground": colors.color16,
+    // selected Text colours
+    // This is the standard Select colour
+    "editor.selectionBackground": colors.color4,
+    // This is the colour of the other matching elements
+    "editor.selectionHighlightBackground": colors.color5,
+    // if you tab away you can colour it differently, but ill leave this one out
+    // "editor.inactiveSelectionBackground": "",
+    // Word Highlights! This happens when you move your cursor inside a variable
+    // Strong is the one where your cursor currently is
+    "editor.wordHighlightStrongBackground": colors.color59,
+    // and this one is the rest of them
+    "editor.wordHighlightBackground": colors.color59,
+    "editorBracketMatch.background": colors.color8,
+    "editorBracketMatch.border": colors.color54,
+    "editorCodeLens.foreground": colors.color38,
+    "editorCursor.foreground": colors.color51,
+    "editorError.border": colors.color8,
+    "editorError.foreground": colors.color36,
+    // gutter
+    "editorGutter.background": colors.color10,
+    "editorGutter.addedBackground": colors.color28,
+    "editorGutter.deletedBackground": colors.color36,
+    "editorGutter.modifiedBackground": colors.color20,
+    // editorGroup
+    "editorGroup.background": colors.color36,
+    "editorGroup.border": colors.color9,
+    "editorGroup.dropBackground": colors.color11,
+    // editorGroupHeader
+    "editorGroupHeader.noTabsBackground": colors.color14,
+    "editorGroupHeader.tabsBackground": colors.color14,
+    "editorGroupHeader.tabsBorder": colors.color12,
+    // editorHoverWidget
+    "editorHoverWidget.background": colors.color12,
+    "editorHoverWidget.border": colors.color8,
+    "editorIndentGuide.background": colors.color26,
+    "editorLineNumber.foreground": colors.color38,
+    "editorLink.activeForeground": colors.color38,
+    // editorMarkerNavigation
+    "editorMarkerNavigation.background": colors.color27,
+    "editorMarkerNavigationError.background": colors.color36,
+    "editorMarkerNavigationWarning.background": colors.color51,
+    // ruler
+    "editorOverviewRuler.border": colors.color8,
+    "editorOverviewRuler.commonContentForeground": colors.color53,
+    "editorOverviewRuler.currentContentForeground": colors.color43,
+    "editorOverviewRuler.incomingContentForeground": colors.color25,
+    "editorRuler.foreground": colors.color16,
+    // editorSuggestWidget
+    "editorSuggestWidget.background": colors.color12,
+    "editorSuggestWidget.border": colors.color12,
+    "editorSuggestWidget.foreground": colors.color38,
+    "editorSuggestWidget.highlightForeground": colors.color51,
+    "editorSuggestWidget.selectedBackground": colors.color14,
+    // editorWarning
+    "editorWarning.border": colors.color57,
+    "editorWarning.foreground": colors.color51,
+    "editorWhitespace.foreground": colors.color58,
+    "editorWidget.background": colors.color12,
+    "editorWidget.border": colors.color8,
+    "errorForeground": colors.color36,
+    // extensionButton
+    "extensionButton.prominentBackground": colors.color6,
+    "extensionButton.prominentForeground": colors.color56,
+    "extensionButton.prominentHoverBackground": colors.color49,
+    "focusBorder": colors.color8,
+    "foreground": colors.color38,
+    // input
+    "input.background": colors.color14,
+    "input.border": colors.color8,
+    "input.foreground": colors.color51,
+    "input.placeholderForeground": colors.color38,
+    "inputOption.activeBorder": colors.color33,
+    "inputValidation.errorBackground": colors.color14,
+    "inputValidation.errorBorder": colors.color51,
+    "inputValidation.infoBackground": colors.color14,
+    "inputValidation.infoBorder": colors.color8,
+    "inputValidation.warningBackground": colors.color14,
+    "inputValidation.warningBorder": colors.color51,
+    // list
+    "list.activeSelectionBackground": colors.color14,
+    "list.activeSelectionForeground": colors.color38,
+    "list.dropBackground": colors.color8,
+    "list.focusBackground": colors.color8,
+    "list.focusForeground": colors.color38,
+    "list.highlightForeground": colors.color51,
+    "list.hoverBackground": colors.color14,
+    "list.hoverForeground": colors.color38,
+    "list.inactiveSelectionBackground": colors.color8,
+    "list.inactiveSelectionForeground": colors.color38,
+    // menu
+    "menu.background": colors.color9,
+    // merge
+    "merge.border": colors.color57,
+    "merge.commonContentBackground": colors.color39,
+    "merge.commonHeaderBackground": colors.color39,
+    "merge.currentContentBackground": colors.color21,
+    "merge.currentHeaderBackground": colors.color21,
+    "merge.incomingContentBackground": colors.color13,
+    "merge.incomingHeaderBackground": colors.color13,
+    // notification colors - The colors below only apply for VS Code versions 1.21 and higher.
+    "notificationCenter.border": colors.color51,
+    "notificationCenterHeader.foreground": colors.color38,
+    "notificationCenterHeader.background": colors.color9,
+    "notificationToast.border": colors.color51,
+    "notifications.foreground": colors.color38,
+    "notifications.background": colors.color9,
+    "notifications.border": colors.color51,
+    "notificationLink.foreground": colors.color51,
+    // notification - If you target VS Code versions before the 1.21 (February 2018) release, these are the old (no longer supported) colors:
+    "notification.background": colors.color51,
+    "notification.buttonBackground": colors.color6,
+    "notification.buttonForeground": colors.color56,
+    "notification.buttonHoverBackground": colors.color49,
+    "notification.errorBackground": colors.color36,
+    "notification.errorForeground": colors.color56,
+    "notification.foreground": colors.color0,
+    "notification.infoBackground": colors.color6,
+    "notification.infoForeground": colors.color56,
+    "notification.warningBackground": colors.color49,
+    "notification.warningForeground": colors.color0,
+    // panel
+    "panel.background": colors.color9,
+    "panel.border": colors.color51,
+    "panelTitle.activeBorder": colors.color51,
+    "panelTitle.activeForeground": colors.color51,
+    "panelTitle.inactiveForeground": colors.color38,
+    // "peekView
+    "peekView.border": colors.color51,
+    "peekViewEditor.background": colors.color14,
+    "peekViewEditor.matchHighlightBackground": colors.color15,
+    "peekViewEditorGutter.background": colors.color9,
+    "peekViewResult.background": colors.color12,
+    "peekViewResult.fileForeground": colors.color38,
+    "peekViewResult.lineForeground": colors.color56,
+    "peekViewResult.matchHighlightBackground": colors.color8,
+    "peekViewResult.selectionBackground": colors.color8,
+    "peekViewResult.selectionForeground": colors.color56,
+    "peekViewTitle.background": colors.color12,
+    "peekViewTitleDescription.foreground": colors.color38,
+    "peekViewTitleLabel.foreground": colors.color51,
+    // picker
+    "pickerGroup.border": colors.color8,
+    "pickerGroup.foreground": colors.color38,
+    // progressBar
+    "progressBar.background": colors.color51,
+    // scrollbar
+    "scrollbar.shadow": colors.color1,
+    "scrollbarSlider.activeBackground": colors.color22,
+    "scrollbarSlider.background": colors.color17,
+    "scrollbarSlider.hoverBackground": colors.color29,
+    // selection
+    "selection.background": colors.color7,
+    // sidebar
+    "sideBar.background": colors.color12,
+    "sideBar.border": colors.color8,
+    "sideBar.foreground": colors.color38,
+    "sideBarSectionHeader.background": colors.color14,
+    "sideBarSectionHeader.foreground": colors.color38,
+    "sideBarTitle.foreground": colors.color38,
+    // statusBar
+    "statusBar.background": colors.color12,
+    "statusBar.border": colors.color8,
+    "statusBar.debuggingBackground": colors.color12,
+    "statusBar.debuggingBorder": colors.color51,
+    "statusBar.debuggingForeground": colors.color51,
+    "statusBar.foreground": colors.color38,
+    "statusBar.noFolderBackground": colors.color12,
+    "statusBar.noFolderBorder": colors.color8,
+    "statusBar.noFolderForeground": colors.color38,
+    "statusBarItem.activeBackground": colors.color6,
+    "statusBarItem.hoverBackground": colors.color8,
+    "statusBarItem.prominentBackground": colors.color12,
+    "statusBarItem.prominentHoverBackground": colors.color8,
+    // tab
+    "tab.activeBackground": colors.color9,
+    "tab.activeForeground": colors.color56,
+    "tab.border": colors.color12,
+    "tab.activeBorder": colors.color51,
+    "tab.inactiveBackground": colors.color14,
+    "tab.inactiveForeground": colors.color38,
+    "tab.unfocusedActiveForeground": colors.color38,
+    "tab.unfocusedInactiveForeground": colors.color38,
+    // --- workbench: terminal
+    "terminal.ansiBlack": colors.color0,
+    "terminal.ansiRed": colors.color46,
+    "terminal.ansiGreen": colors.color23,
+    "terminal.ansiYellow": colors.color51,
+    "terminal.ansiBlue": colors.color6,
+    "terminal.ansiMagenta": colors.color45,
+    "terminal.ansiCyan": colors.color31,
+    "terminal.ansiWhite": colors.color56,
+    "terminal.ansiBrightBlack": colors.color4,
+    "terminal.ansiBrightRed": colors.color46,
+    "terminal.ansiBrightGreen": colors.color23,
+    "terminal.ansiBrightYellow": colors.color51,
+    "terminal.ansiBrightBlue": colors.color6,
+    "terminal.ansiBrightMagenta": colors.color45,
+    "terminal.ansiBrightCyan": colors.color31,
+    "terminal.ansiBrightWhite": colors.color14,
+    "terminal.background": colors.color9,
+    "terminal.foreground": colors.color56,
+    "terminalCursor.background": colors.color51,
+    "terminalCursor.foreground": colors.color51,
+    // Git status colors in File Explorer
+    "gitDecoration.modifiedResourceForeground": colors.color51,
+    "gitDecoration.deletedResourceForeground": colors.color46,
+    "gitDecoration.untrackedResourceForeground": colors.color23,
+    "gitDecoration.ignoredResourceForeground": colors.color30,
+    "gitDecoration.conflictingResourceForeground": colors.color47,
+    // textBlockQuote
+    "textBlockQuote.background": colors.color14,
+    "textBlockQuote.border": colors.color6,
+    "textCodeBlock.background": colors.color14,
+    "textLink.activeForeground": colors.color6,
+    "textLink.foreground": colors.color6,
+    "textPreformat.foreground": colors.color51,
+    "textSeparator.foreground": colors.color8,
+    "titleBar.activeBackground": colors.color12,
+    "titleBar.activeForeground": colors.color56,
+    "titleBar.inactiveBackground": colors.color14,
+    "titleBar.inactiveForeground": colors.color60,
+    "walkThrough.embeddedEditorBackground": colors.color8,
+    "welcomePage.buttonBackground": colors.color14,
+    "welcomePage.buttonHoverBackground": colors.color8,
+    "widget.shadow": colors.color2
   },
-  tokenColors: [
+  "tokenColors": [
     {
-      name: "COMMENT",
-      scope: [
-        "comment",
-        "punctuation.definition.comment",
-        "punctuation.definition.tag",
-        "comment.block.documentation punctuation.definition.bracket"
-      ],
-      settings: {
-        foreground: colors.teal
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": colors.color6
       }
     },
     {
-      name: "TEXT",
-      scope: [
-        "constant.character",
-        "constant.escape",
-        "text.html.markdown",
-        "punctuation.definition.list_item",
-        "keyword.begin.tag.ejs",
-        "constant.name.attribute.tag.pug",
-        "source.clojure meta.symbol",
-        "constant.other.description.jsdoc",
-        "keyword.other.array.phpdoc.php",
-        "keyword.operator.other.powershell",
-        "meta.link.inline punctuation.definition.string",
-        "source.sql",
-        "source meta.brace",
-        "source punctuation",
-        "text.html punctuation",
-        "markup meta punctuation.definition",
-        "meta.bracket.julia",
-        "meta.array.julia",
-        "punctuation.separator.key-value"
-      ],
-      settings: {
-        foreground: colors.gallery
+      "name": "Constant",
+      "scope": "constant",
+      "settings": {
+        "foreground": colors.color46
       }
     },
     {
-      name: "KEYWORD",
-      scope: [
-        "keyword",
-        "keyword.control",
-        "keyword.other.template",
-        "keyword.other.substitution",
-        "storage.modifier",
-        "meta.tag.sgml",
-        "punctuation.accessor",
-        "constant.other.color",
-        "entity.name.section",
-        "markup.heading",
-        "markup.heading punctuation.definition",
-        "entity.other.attribute-name.pseudo-class",
-        "entity.other.attribute-name.pseudo-element",
-        "tag.decorator.js entity.name.tag.js",
-        "tag.decorator.js punctuation.definition.tag.js",
-        "storage.type.function.pug",
-        "text.pug storage.type",
-        "text.pug meta.tag.other",
-        "source.clojure storage.control",
-        "meta.expression.clojure",
-        "punctuation.separator.slice.python",
-        "punctuation.separator.question-mark.cs",
-        "punctuation.definition.parameters.varargs",
-        "source.go keyword.operator",
-        "punctuation.definition.directive.c",
-        "punctuation.separator.pointer-access",
-        "punctuation.separator.other.ruby",
-        "keyword.package.go",
-        "keyword.import.go",
-        "punctuation.definition.keyword",
-        "storage.type.modifier.cpp",
-        "punctuation.separator.hash.cs",
-        "variable.parameter.rest.lua",
-        "entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
-        "entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
-        "source.kotlin storage.type.import",
-        "source.kotlin storage.type.package",
-        "constant.string.documentation.powershell",
-        "punctuation.section.directive",
-        "storage.type.rust",
-        "punctuation.definition.attribute",
-        "punctuation.definition.preprocessor",
-        "punctuation.separator.namespace",
-        "punctuation.separator.method"
-      ],
-      settings: {
-        foreground: colors.sweetPink
+      "name": "Entity",
+      "scope": "entity",
+      "settings": {
+        "foreground": colors.color51
       }
     },
     {
-      name: "VARIABLE",
-      scope: [
-        "variable",
-        "variable.object",
-        "variable.other",
-        "variable.parameter",
-        "support",
-        "string constant.other.placeholder",
-        "source.css.scss variable",
-        "entity.name.module",
-        "variable.import.parameter",
-        "variable.other.class",
-        "meta.toc-list.id.html",
-        "source.json meta.structure.dictionary.json support.type.property-name.json",
-        "markup.list",
-        "meta.var.clojure",
-        "source.cs entity.name.variable",
-        "source.java meta.class.body.java",
-        "entity.name.package.go",
-        "source.c",
-        "source.cpp",
-        "source.go",
-        "source.python",
-        "meta.function-call.arguments.python",
-        "source.ruby",
-        "source.coffee.embedded.source",
-        "source.coffee",
-        "storage.modifier.import",
-        "storage.modifier.package",
-        "storage.type.annotation",
-        "punctuation.definition.annotation",
-        "source.groovy.embedded.source",
-        "punctuation.definition.variable",
-        "source.powershell",
-        "string.quoted.interpolated.vala constant.character.escape.vala",
-        "source.apacheconf",
-        "source.objc",
-        "source.crystal",
-        "string.quoted.double.kotlin entity.string.template.element.kotlin",
-        "entity.name.package.kotlin",
-        "meta.template.expression.kotlin",
-        "parameter.variable.function",
-        "variable.other.constant.elixir",
-        "source.elixir.embedded.source",
-        "source.sql.embedded",
-        "punctuation.definition.placeholder",
-        "source.swift",
-        "source.julia"
-      ],
-      settings: {
-        foreground: colors.lightingYellow
+      "name": "Invalid",
+      "scope": "invalid",
+      "settings": {
+        "foreground": colors.color44
       }
     },
     {
-      name: "ANNOTATION",
-      scope: [
-        "support.variable.property",
-        "constant.other.symbol.hashkey.ruby",
-        "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
-        "entity.other.attribute-name.id.css",
-        "entity.other.attribute-name.id.css punctuation.definition.entity.css",
-        "entity.name.type.annotation.kotlin",
-        "support.type.primitive",
-        "meta.type.parameters entity.name.type",
-        "meta.type.annotation entity.name.type",
-        "punctuation.definition.typeparameters",
-        "source.python support.type.python",
-        "comment.block.documentation.phpdoc.php keyword.other.type.php",
-        "storage.type.php",
-        "keyword.type.cs",
-        "storage.type.cs",
-        "storage.type.c",
-        "storage.type.objc",
-        "punctuation.definition.storage.type.objc",
-        "markup punctuation.definition",
-        "storage.type.powershell",
-        "comment.block.documentation entity.name.type",
-        "source.java storage.type",
-        "storage.type.primitive",
-        "source.groovy storage.type",
-        "storage.type.r",
-        "source.haskell storage.type",
-        "punctuation.separator.clause-head-body",
-        "source.go storage.type",
-        "storage.type.core.rust",
-        "storage.class.std.rust",
-        "storage.modifier.lifetime.rust",
-        "entity.name.lifetime.rust",
-        "support.type.swift",
-        "support.type.vb",
-        "entity.name.type.kotlin",
-        "support.type.julia"
-      ],
-      settings: {
-        foreground: colors.lavenderRose
+      "name": "Storage Type Function",
+      "scope": "storage.type.function",
+      "settings": {
+        "foreground": colors.color49
       }
     },
     {
-      name: "CONSTANT",
-      scope: [
-        "constant",
-        "variable.other.constant",
-        "support.constant",
-        "punctuation.definition.entity",
-        "constant.character.entity",
-        "support.variable.magic",
-        "entity.other.attribute-name",
-        "markup.quote",
-        "entity.name.type.type-parameter.cs",
-        "punctuation.bracket.angle",
-        "entity.name.function.preprocessor.c",
-        "support.variable.lua",
-        "storage.type.scala",
-        "entity.helper.apacheconf",
-        "source.vala storage.type",
-        "variable.language.crystal",
-        "punctuation.definition.constant",
-        "support.constant punctuation.definition.variable"
-      ],
-      settings: {
-        foreground: colors.candlelight
+      "name": "Keyword",
+      "scope": "keyword, storage.type.class",
+      "settings": {
+        "foreground": colors.color49
       }
     },
     {
-      name: "TAG",
-      scope: [
-        "variable.language",
-        "variable.parameter.function.language.special",
-        "markup.bold",
-        "markup.italic",
-        "punctuation.definition.italic",
-        "punctuation.definition.bold",
-        "entity.name.tag",
-        "variable.language punctuation.definition.variable.php",
-        "keyword.control.clojure",
-        "support.type.exception.python",
-        "keyword.other.this.cs",
-        "keyword.other.base.cs",
-        "keyword.other.var.cs",
-        "storage.modifier.super",
-        "source.go keyword",
-        "keyword.function.go",
-        "meta.separator",
-        "keyword.other.fn.rust",
-        "storage.modifier.static.rust",
-        "source.r meta.function.r keyword.control.r",
-        "storage.type.def",
-        "meta.class.identifier storage.modifier",
-        "source.scala keyword.declaration",
-        "storage.type",
-        "comment.block.documentation punctuation.definition.block.tag",
-        "comment.block.documentation punctuation.definition.inline.tag",
-        "entity.tag.apacheconf",
-        "keyword.other.julia",
-        "source.julia storage.modifier",
-        "constant.language.empty-list.haskell",
-        "keyword.declaration.scala",
-        "meta.function.powershell storage.type.powershell",
-        "keyword.control.fun",
-        "punctuation.terminator.function",
-        "keyword.other.rust",
-        "keyword.other.declaration-specifier.swift",
-        "keyword.control.function-end.lua",
-        "keyword.control.class",
-        "keyword.control.def"
-      ],
-      settings: {
-        foreground: colors.monaLisa
+      "name": "Meta",
+      "scope": "meta",
+      "settings": {
+        "foreground": colors.color35
       }
     },
     {
-      name: "STRING",
-      scope: [
-        "string",
-        "punctuation.definition.string",
+        "name": "Meta JSX",
+        "scope": [
+            "meta.jsx.children",
+            "meta.jsx.children.js",
+            "meta.jsx.children.tsx"
+        ],
+        "settings": {
+            "foreground": colors.color56
+        }
+    },
+    {
+      "name": "Meta Brace",
+      "scope": "meta.brace",
+      "settings": {
+        "foreground": colors.color41
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": "punctuation",
+      "settings": {
+        "foreground": colors.color41
+      }
+    },
+    {
+      "name": "Punctuation Parameters",
+      "scope": "punctuation.definition.parameters",
+      "settings": {
+        "foreground": colors.color55
+      }
+    },
+    {
+      "name": "Punctuation Template Expression",
+      "scope": "punctuation.definition.template-expression",
+      "settings": {
+        "foreground": colors.color55
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": "storage",
+      "settings": {
+        "foreground": colors.color51
+      }
+    },
+    {
+      "name": "Storage Type Arrow Function",
+      "scope": "storage.type.function.arrow",
+      "settings": {
+        "foreground": colors.color51
+      }
+    },
+    {
+      "name": "String",
+      "scope": ["string", "punctuation.definition.string"],
+      "settings": {
+        "foreground": colors.color37
+      }
+    },
+    {
+      "name": "String Template",
+      "scope": ["string.template", "punctuation.definition.string.template"],
+      "settings": {
+        "foreground": colors.color23
+      }
+    },
+    {
+      "name": "Support",
+      "scope": "support",
+      "settings": {
+        "foreground": colors.color32
+      }
+    },
+    {
+      "name": "Support Function",
+      "scope": "support.function",
+      "settings": {
+        "foreground": colors.color49
+      }
+    },
+    {
+      "name": "Support Variable Property DOM",
+      "scope": "support.variable.property.dom",
+      "settings": {
+        "foreground": colors.color41
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": "variable",
+      "settings": {
+        "foreground": colors.color41
+      }
+    },
+    {
+      "name": "[CSS] - Entity",
+      "scope": ["source.css entity", "source.stylus entity"],
+      "settings": {
+        "foreground": colors.color23
+      }
+    },
+    {
+      "name": "[CSS] - ID Selector",
+      "scope": "entity.other.attribute-name.id.css",
+      "settings": {
+        "foreground": colors.color50
+      }
+    },
+    {
+      "name": "[CSS] - Element Selector",
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": colors.color35
+      }
+    },
+    {
+      "name": "[CSS] - Support",
+      "scope": ["source.css support", "source.stylus support"],
+      "settings": {
+        "foreground": colors.color37
+      }
+    },
+    {
+      "name": "[CSS] - Constant",
+      "scope": [
+        "source.css constant",
         "source.css support.constant",
-        "entity.name.import.go"
+        "source.stylus constant",
+        "source.stylus support.constant"
       ],
-      settings: {
-        foreground: colors.malachite
+      "settings": {
+        "foreground": colors.color55
       }
     },
     {
-      name: "STRINGINTERPOLATED",
-      scope: [
-        "string.template",
-        "punctuation.definition.string.template",
-        "string.interpolated.python string.quoted.single.python",
-        "string.quoted.double.heredoc",
-        "string.quoted.interpolated.vala",
-        "string.quoted.interpolated.vala punctuation.definition.string",
-        "string.regexp.apacheconf",
-        "markup.inline.raw.string",
-        "markup.inline.raw punctuation.definition.raw",
-        "string.quoted.double.interpolated.crystal",
-        "string.quoted.double.interpolated.crystal punctuation.definition.string"
+      "name": "[CSS] - String",
+      "scope": [
+        "source.css string",
+        "source.css punctuation.definition.string",
+        "source.stylus string",
+        "source.stylus punctuation.definition.string"
       ],
-      settings: {
-        foreground: colors.green
+      "settings": {
+        "foreground": colors.color55
       }
     },
     {
-      name: "NUMBER",
-      scope: [
-        "constant.numeric",
-        "constant.language",
-        "punctuation.separator.decimal.period.php",
-        "keyword.operator.null-conditional.cs",
-        "punctuation.separator.question-mark.cs",
-        "constant.integer.apacheconf",
-        "keyword.operator.nullable-type",
-        "constant.language punctuation.definition.variable"
+      "name": "[CSS] - Variable",
+      "scope": ["source.css variable", "source.stylus variable"],
+      "settings": {
+        "foreground": colors.color35
+      }
+    },
+    {
+      "name": "[HTML] - Entity Name",
+      "scope": "text.html.basic entity.name",
+      "settings": {
+        "foreground": colors.color35
+      }
+    },
+    {
+      "name": "[HTML] - ID value",
+      "scope": "meta.toc-list.id.html",
+      "settings": {
+        "foreground": colors.color37
+      }
+    },
+    {
+      "name": "[HTML] - Entity Other",
+      "scope": "text.html.basic entity.other",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": colors.color51
+      }
+    },
+    {
+      "name": "[HTML] - Script Tag",
+      "scope": "meta.tag.metadata.script.html entity.name.tag.html",
+      "settings": {
+        "foreground": colors.color51
+      }
+    },
+    {
+      "name":
+        "[HTML] - Quotes. these are a slightly different colour because expand selection will then not include quotes",
+      "scope":
+        "punctuation.definition.string.begin, punctuation.definition.string.end",
+      "settings": {
+        "foreground": colors.color34
+      }
+    },
+    {
+      "name": "[INI] - Entity",
+      "scope": "source.ini entity",
+      "settings": {
+        "foreground": colors.color41
+      }
+    },
+    {
+      "name": "[INI] - Keyword",
+      "scope": "source.ini keyword",
+      "settings": {
+        "foreground": colors.color51
+      }
+    },
+    {
+      "name": "[INI] - Punctuation Definition",
+      "scope": "source.ini punctuation.definition",
+      "settings": {
+        "foreground": colors.color55
+      }
+    },
+    {
+      "name": "[INI] - Punctuation Separator",
+      "scope": "source.ini punctuation.separator",
+      "settings": {
+        "foreground": colors.color49
+      }
+    },
+    {
+      "name": "[JAVASCRIPT] - Storage Type Function",
+      "scope": "source.js storage.type.function",
+      "settings": {
+        "foreground": colors.color45
+      }
+    },
+    {
+      "name": "[JAVASCRIPT] - Variable Language",
+      "scope": "variable.language, entity.name.type.class.js",
+      "settings": {
+        "foreground": colors.color45
+      }
+    },
+    {
+      "name": "[JAVASCRIPT] - Inherited Component",
+      "scope": "entity.other.inherited-class.js",
+      "settings": {
+        "foreground": "colors.color61"
+      }
+    },
+    {
+      "name": "[PYTHON] - Self Argument",
+      "scope": "variable.parameter.function.language.special.self.python",
+      "settings": {
+        "foreground": colors.color45
+      }
+    },
+    {
+      "name": "[JSON] - Support",
+      "scope": "source.json support",
+      "settings": {
+        "foreground": colors.color51
+      }
+    },
+    {
+      "name": "[JSON] - String",
+      "scope": [
+        "source.json string",
+        "source.json punctuation.definition.string"
       ],
-      settings: {
-        foreground: colors.perfume
+      "settings": {
+        "foreground": colors.color41
       }
     },
     {
-      name: "FUNCTION",
-      scope: [
-        "variable.function",
-        "source.css support.type.property-name",
-        "source.sass support.type.property-name",
-        "source.scss support.type.property-name",
-        "source.less support.type.property-name",
-        "source.stylus support.type.property-name",
-        "source.postcss support.type.property-name",
-        "keyword.other.unit",
-        "entity.name.function",
-        "string.other.link",
-        "markup.link",
-        "support.type.vendored",
-        "support.other.variable",
-        "meta.function-perfume.generic.python",
-        "meta.method-call.groovy meta.method.groovy",
-        "meta.class.body.groovy meta.method.body.java storage.type.groovy",
-        "punctuation.decorator.ts",
-        "punctuation.definition.decorator",
-        "support.function.any-method"
+      "name": "[MARKDOWN] - Heading Punctuation",
+      "scope": "punctuation.definition.heading.markdown",
+      "settings": {
+        "foreground": colors.color41
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Heading Name Section",
+      "scope": [
+        "entity.name.section.markdown",
+        "markup.heading.setext.1.markdown",
+        "markup.heading.setext.2.markdown"
       ],
-      settings: {
-        foreground: colors.aqua
+      "settings": {
+        "foreground": colors.color51,
+        "fontStyle": "bold"
       }
     },
     {
-      name: "SUPPORT",
-      scope: [
-        "entity.name",
-        "entity.other",
-        "support.orther.namespace.use.php",
-        "meta.use.php",
-        "support.other.namespace.php",
-        "support.type",
-        "support.class",
-        "punctuation.definition.parameters",
-        "support.function",
-        "support.function.construct",
-        "markup.changed.git_gutter",
-        "markup.underline.link",
-        "markup.underline.link.image",
-        "markup.underline",
-        "meta.symbol.namespace.clojure",
-        "entity.name.type.namespace.cs",
-        "support.class.dart",
-        "entity.mime-type.apacheconf",
-        "keyword.operator.function.infix",
-        "entity.name.function.infix",
-        "entity.name.function.call.kotlin"
+      "name": "[MARKDOWN] - Paragraph",
+      "scope": "meta.paragraph.markdown",
+      "settings": {
+        "foreground": colors.color41
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Quote Punctuation",
+      "scope": "beginning.punctuation.definition.quote.markdown",
+      "settings": {
+        "foreground": colors.color51
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Quote Paragraph",
+      "scope": "markup.quote.markdown meta.paragraph.markdown",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": colors.color35
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Separator",
+      "scope": "meta.separator.markdown",
+      "settings": {
+        "foreground": colors.color51
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Emphasis Bold",
+      "scope": "markup.bold.markdown",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": colors.color35
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Emphasis Italic",
+      "scope": "markup.italic.markdown",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": colors.color35
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Lists",
+      "scope": "beginning.punctuation.definition.list.markdown",
+      "settings": {
+        "foreground": colors.color51
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Link Title",
+      "scope": "string.other.link.title.markdown",
+      "settings": {
+        "foreground": colors.color37
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Link/Image Title",
+      "scope": [
+        "string.other.link.title.markdown",
+        "string.other.link.description.markdown",
+        "string.other.link.description.title.markdown"
       ],
-      settings: {
-        foreground: colors.skyBlue
+      "settings": {
+        "foreground": colors.color37
       }
     },
     {
-      name: "MISC",
-      scope: [
-        "source.js constant.other.object.key.js string.unquoted.label.js",
-        "source.js punctuation.section.embedded",
-        "punctuation.definition.template-expression",
-        "support.class",
-        "entity.name.type",
-        "storage.type.string.python",
-        "string.interpolated.pug",
-        "support.constant.handlebars",
-        "source.clojure punctuation.section.set",
-        "source.clojure punctuation.section.metadata",
-        "entity.global.clojure",
-        "source.python meta.function-call.python support.type.python",
-        "constant.character.format.placeholder.other.python",
-        "entity.other.inherited-class.python",
-        "punctuation.definition.interpolation",
-        "constant.other.placeholder.go",
-        "constant.other.placeholder.c",
-        "punctuation.section.embedded.begin.ruby",
-        "punctuation.section.embedded.end.ruby source.ruby",
-        "support.constant.math",
-        "entity.namespace.r",
-        "meta.method-call.groovy storage.type.groovy",
-        "entity.name.function-table.lua",
-        "source.scala entity.name.class.declaration",
-        "constant.character.escape",
-        "support.function.macro.julia",
-        "string.replacement.apacheconf",
-        "storage.modifier.using.vala",
-        "constant.other.haskell",
-        "source.objc entity.name.tag",
-        "string.quoted.other.literal.upper.crystal punctuation.definition.string",
-        "meta.embedded.line.crystal punctuation.section.embedded",
-        "meta.embedded.line.crystal punctuation.section.embedded source.crystal",
-        "source.scala entity.name.class",
-        "punctuation.section.embedded",
-        "punctuation.section.tag",
-        "punctuation.section.embedded source.swift"
+      "name": "[MARKDOWN] - Link Address",
+      "scope": [
+        "markup.underline.link.markdown",
+        "markup.underline.link.image.markdown"
       ],
-      settings: {
-        foreground: colors.jordyBlue
+      "settings": {
+        "foreground": colors.color35
       }
     },
     {
-      name: "INVALID",
-      scope: ["invalid", "invalid.illegal"],
-      settings: {
-        foreground: colors.persimmmon
+      "name": "[MARKDOWN] - Inline Code",
+      "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
+      "settings": {
+        "foreground": colors.color35
       }
     },
     {
-      name: "ITALIC",
-      scope: [
+      "name": "[MARKDOWN] - Code Block",
+      "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
+      "settings": {
+        "foreground": colors.color35
+      }
+    },
+    {
+      "name": "[PUG] - Entity Name",
+      "scope": "text.jade entity.name",
+      "settings": {
+        "foreground": colors.color35
+      }
+    },
+    {
+      "name": "[PUG] - Entity Attribute Name",
+      "scope": "text.jade entity.other.attribute-name.tag",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[PUG] - String Interpolated",
+      "scope": "text.jade string.interpolated",
+      "settings": {
+        "foreground": colors.color55
+      }
+    },
+    {
+      "name": "[TYPESCRIPT] - Entity Name Type",
+      "scope": "source.ts entity.name.type",
+      "settings": {
+        "foreground": colors.color32
+      }
+    },
+    {
+      "name": "[TYPESCRIPT] - Keyword",
+      "scope": "source.ts keyword",
+      "settings": {
+        "foreground": colors.color51
+      }
+    },
+    {
+      "name": "[TYPESCRIPT] - Punctuation Parameters",
+      "scope": "source.ts punctuation.definition.parameters",
+      "settings": {
+        "foreground": colors.color41
+      }
+    },
+    {
+      "name": "[TYPESCRIPT] - Punctuation Arrow Parameters",
+      "scope": "meta.arrow.ts punctuation.definition.parameters",
+      "settings": {
+        "foreground": colors.color55
+      }
+    },
+    {
+      "name": "[TYPESCRIPT] - Storage",
+      "scope": "source.ts storage",
+      "settings": {
+        "foreground": colors.color35
+      }
+    },
+    {
+      "name": "[TYPESCRIPT] - Variable Language",
+      "scope": "variable.language, entity.name.type.class.ts, entity.name.type.class.tsx",
+      "settings": {
+        "foreground": colors.color45
+      }
+    },
+    {
+      "name": "[TYPESCRIPT] - Inherited Component",
+      "scope": "entity.other.inherited-class.ts, entity.other.inherited-class.tsx",
+      "settings": {
+        "foreground": "colors.color61"
+      }
+    },
+    {
+      "name": "[PHP] - Entity",
+      "scope": "source.php entity",
+      "settings": {
+        "foreground": colors.color35
+      }
+    },
+    {
+      "name": "[PHP] - Variables",
+      "scope": "variable.other.php",
+      "settings": {
+        "foreground": colors.color51
+      }
+    },
+    {
+      "name": "[C#] - Annotations",
+      "scope": "storage.type.cs",
+      "settings": {
+        "foreground": colors.color35
+      }
+    },
+    {
+      "name": "[C#] - Properties",
+      "scope": "entity.name.variable.property.cs",
+      "settings": {
+        "foreground": colors.color35
+      }
+    },
+    {
+      "name": "[C#] - Storage modifiers",
+      "scope": "storage.modifier.cs",
+      "settings": {
+        "foreground": colors.color32
+      }
+    },
+    {
+      "name": "Italicsify for Operator Mono",
+      "scope": [
+        "modifier",
+        "this",
         "comment",
-        "storage.modifier",
-        "punctuation.definition.comment",
-        "entity.other",
-        "variable.language",
-        "support.type.vendored",
-        "support.constant.vendored",
-        "markup.quote",
-        "markup.italic",
-        "tag.decorator.js entity.name.tag.js",
-        "tag.decorator.js punctuation.definition.tag.js",
-        "keyword.control.clojure",
-        "source.clojure meta.symbol.dynamic",
-        "keyword.other.this.cs",
-        "keyword.other.base.cs",
-        "variable.other.member.c",
-        "storage.class.std.rust",
-        "support.type.core.rust",
-        "variable.other.object.property",
-        "variable.other.property",
-        "source.r meta.function.r keyword.control.r",
-        "comment.line.roxygen.r keyword",
-        "comment.line.roxygen.r variable.parameter.r",
-        "keyword.control.inheritance.coffee",
-        "comment.block.documentation.phpdoc.php keyword",
-        "keyword.other.array.phpdoc.php",
-        "storage.type.modifier",
-        "comment.block.javadoc.java keyword",
-        "comment.block.javadoc.java variable.parameter.java",
-        "keyword.operator.documentation.powershell",
-        "variable.other.table.property.lua",
-        "storage.type.scala",
-        "variable.parameter.function.language.special",
-        "comment.block.documentation.scala keyword",
-        "comment.block.documentation.scala variable.parameter",
-        "support.function.builtin.go",
-        "constant.other.symbol.hashkey.ruby",
-        "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
-        "constant.other.symbol.ruby",
-        "source.vala storage.type.generic",
-        "variable.other.crystal",
-        "constant.other.table-name",
-        "constant.other.placeholder",
-        "variable.other.field",
-        "keyword.function.go",
-        "entity.alias.import.go",
-        "source.swift keyword.other.declaration-specifier",
-        "support.variable.swift",
-        "keyword.other.capture-specifier"
+        "storage.modifier.js",
+        "storage.modifier.ts",
+        "storage.modifier.tsx",
+        "entity.other.attribute-name.js",
+        "entity.other.attribute-name.ts",
+        "entity.other.attribute-name.tsx",
+        "entity.other.attribute-name.html"
       ],
-      settings: {
-        fontStyle: "italic"
+      "settings": {
+        "fontStyle": "italic"
       }
     },
     {
-      name: "BOLD",
-      scope: [
-        "keyword",
-        "keyword.control",
-        "keyword.operator",
-        "keyword.other.template",
-        "keyword.other.substitution",
-        "storage.type.function.arrow",
-        "constant.other.color",
-        "punctuation.accessor",
-        "entity.name.section",
-        "markup.bold",
-        "markup.bold string",
-        "markdown.heading",
-        "markup.inline.raw punctuation.definition.raw",
-        "markup.heading",
-        "storage.type.function.pug",
-        "storage.type.function.python",
-        "punctuation.definition.typeparameters",
-        "storage.type.annotation",
-        "punctuation.bracket.angle",
-        "keyword.other.new",
-        "punctuation.separator.question-mark.cs",
-        "storage.type.generic.wildcard",
-        "source.go keyword.operator",
-        "punctuation.separator.namespace",
-        "constant.other.symbol.ruby punctuation.definition.constant.ruby",
-        "variable.parameter",
-        "support.function.builtin.rust",
-        "storage.type.function.coffee",
-        "source.cs entity.name.variable.parameter",
-        "punctuation.separator.hash.cs",
-        "constant.other.symbol.ruby punctuation.definition.constant.ruby",
-        "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
-        "meta.function.parameters variable.other",
-        "keyword.declaration.scala",
-        "entity.name.type.annotation.kotlin",
-        "storage.type.function.kotlin",
-        "support.type.primitive",
-        "source.python support.type.python",
-        "storage.type.php",
-        "keyword.type.cs",
-        "storage.type.objc",
-        "parameter.variable.function",
-        "markup punctuation.definition",
-        "storage.type.primitive",
-        "punctuation.section.directive",
-        "punctuation.definition.preprocessor",
-        "punctuation.definition.variable",
-        "punctuation.separator.method"
-      ],
-      settings: {
-        fontStyle: "bold"
+      "name": "[CSHARP] - Modifiers and keyword types",
+      "scope": "storage.modifier.cs, keyword.type.cs",
+      "settings": {
+        "foreground": colors.color45
       }
     },
     {
-      name: "BOLD-ITALIC",
-      scope: [
-        "markup.bold markup.italic",
-        "markup.italic markup.bold",
-        "markup.quote markup.bold",
-        "markup.bold markup.italic string",
-        "markup.italic markup.bold string",
-        "markup.quote markup.bold string",
-        "text.html punctuation.section.embedded",
-        "variable.other.c",
-        "meta.function.constructor.cpp entity.name.function.cpp",
-        "meta.function.destructor.cpp entity.name.function.cpp",
-        "storage.modifier.lifetime.rust",
-        "entity.name.lifetime.rust",
-        "source.rust meta.attribute.rust",
-        "meta.attribute.id entity.other.attribute-name",
-        "keyword.other.fn.rust"
-      ],
-      settings: {
-        fontStyle: "bold italic"
+      "name": "[CSHARP] - Storage types",
+      "scope": "storage.type.cs",
+      "settings": {
+        "foreground": colors.color32
       }
     },
     {
-      name: "NORMAL",
-      scope: [
-        "keyword.begin.tag.ejs",
-        "source.python meta.function.decorator.python support.type.python",
-        "source.cs keyword.other",
-        "keyword.other.var.cs",
-        "source.go keyword",
-        "storage.modifier.static.rust",
-        "variable.parameter.r",
-        "variable.parameter.handlebars",
-        "storage.modifier.import",
-        "storage.modifier.package",
-        "meta.class.identifier storage.modifier",
-        "keyword.operator.other.powershell",
-        "source.lua storage.type.function",
-        "source.scala keyword.declaration",
-        "source.css variable.parameter",
-        "storage.type.primitive.dart",
-        "string.interpolated variable.parameter",
-        "source.apacheconf keyword",
-        "keyword.other.julia",
-        "storage.modifier.using.vala",
-        "source.objc keyword.other.property.attribute",
-        "source.sql keyword.other",
-        "keyword.other.using.vala",
-        "keyword.operator.function.infix",
-        "keyword.control.directive",
-        "keyword.other.rust",
-        "keyword.other.declaration-specifier.swift",
-        "entity.name.function.swift",
-        "keyword.control.function-end.lua",
-        "keyword.control.class",
-        "keyword.control.def"
-      ],
-      settings: {
-        fontStyle: ""
+      "name": "[CSHARP] - Namespaces, parameters, field variables, properties",
+      "scope": "entity.name.type.namespace.cs, entity.name.variable.parameter.cs, entity.name.variable.field.cs, entity.name.variable.property.cs",
+      "settings": {
+        "foreground": colors.color41
       }
     }
   ]

@@ -7,7 +7,7 @@ The aurora borealis served as the inspiration for this theme, with it's teal lik
 
 ## Borealis
 
-![Borealis Screenshot](https://github.com/eckertalex/borealis/raw/master/images/borealis.png)
+![Borealis Screenshot](https://github.com/eckertalex/borealis/raw/main/images/borealis.png)
 
 ## Installation
 
@@ -18,10 +18,10 @@ The aurora borealis served as the inspiration for this theme, with it's teal lik
 
 ## Recommended Settings
 
-```js
+```json
 {
   "workbench.colorTheme": "Borealis",
-  // The Cursive font is Dank Mono, it's 40.00£ and you need to buy it to get the cursive (https://dank.sh/)
+  // The Cursive font is Dank Mono, it's 40.00£ and you need to buy it to get the cursive (https://dank.sh/),
   "editor.fontFamily": "'Dank Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 16,
   "editor.lineHeight": 25,
@@ -33,7 +33,7 @@ The aurora borealis served as the inspiration for this theme, with it's teal lik
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 3,
   "editor.cursorBlinking": "solid",
-  "editor.renderWhitespace": "all",
+  "editor.renderWhitespace": "all"
 }
 ```
 
@@ -55,3 +55,8 @@ This theme was inspired by the themes [Cobalt2](https://github.com/wesbos/cobalt
 ### Logo
 
 Icon made by Freepik from [flaticon.com](www.flaticon.com)
+
+## [Borealis Theme](https://github.com/eckertalex/borealis-theme) in other Applications
+
+- [Kitty](https://github.com/eckertalex/borealis-kitty)
+- [iTerm](https://github.com/eckertalex/borealis-iterm)

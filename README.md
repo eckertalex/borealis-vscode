@@ -56,7 +56,7 @@ This theme was inspired by the themes [Cobalt2](https://github.com/wesbos/cobalt
 
 Icon made by Freepik from [flaticon.com](www.flaticon.com)
 
-## [Borealis Theme](https://github.com/eckertalex/borealis-theme) in other Applications
+## Related Themes
 
-- [Kitty](https://github.com/eckertalex/borealis-kitty)
-- [iTerm](https://github.com/eckertalex/borealis-iterm)
+Visit [Borealis Theme](https://github.com/eckertalex/borealis-theme) to see
+Borealis Theme for other Applications
